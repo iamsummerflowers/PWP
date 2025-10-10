@@ -3,7 +3,7 @@ import { useState } from 'react';
 import './Header.css';
 import { Link } from 'react-router-dom';
 
-function Header(currentPage, setCurrentPage) {
+function Header({ currentPage, setCurrentPage }) {
 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   

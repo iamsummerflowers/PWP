@@ -1,11 +1,11 @@
-import React from 'react';
-import { useState } from 'react';
+
+import React, { useState } from 'react';
 import logo from './assets/logoBrain.svg';
 import './App.css';
 import { Link } from 'react-router-dom';
 import Header from './Header/Header.js';
 import Home from './Main/Home.js';
-import Main from './Main/Main.js';
+import About from './Main/About.js';
 import Footer from './Footer/Footer.js';
 
 
@@ -19,7 +19,7 @@ function App() {
         {/* <Main /> */}
         <main className="flex-grow">
             {currentPage === 'home' && <Home />}
-            {/* {currentPage === 'about' && <AboutPage />} */}
+            {currentPage === 'about' && <About />}
             {/* {currentPage === 'village-sunday' && <VillageSundayPage />} */}
         </main>
         <Footer />
