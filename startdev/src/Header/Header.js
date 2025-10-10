@@ -45,7 +45,7 @@ function Header({ currentPage, setCurrentPage }) {
                         </button>
                         <button
                             onClick={() => setCurrentPage('village-sunday')}
-                            className={`px-0 py-3 rounded-lg text-sm font-medium elegant-transition${
+                            className={`px-0 py-3 rounded-lg text-sm font-medium elegant-transition ${
                                 currentPage === 'village-sunday' 
                                     ? 'elegant-button text-white' 
                                     : 'text-gray-700 hover:bg-red-100 custom-red'
