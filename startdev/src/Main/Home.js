@@ -1,5 +1,6 @@
 import React from 'react';
 import './Home.css';
+import family from '../assets/family.jpg';
 
 function Home({ id, header, bodyItems }) {
   return (
@@ -14,7 +15,7 @@ function Home({ id, header, bodyItems }) {
                             Parenting with a Purpose
                         </h1>
                         <p className="text-xl md:text-2xl text-gray-800 mb-12 leading-relaxed font-light">
-                            Empowering parents with the knowledge, resources, and community support to raise resilient, compassionate, and purpose-driven children.
+                            Parenting with a Purpose equips and empowers parents with the knowledge,resources, and community support they need to raise resilient, compassionate, and purpose-driven children. We are committed to strengthening families through education, mentorship, and practical tools that foster positive relationships and lasting impact for generations to come.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-6">
                             <button className="elegant-button text-white px-10 py-4 rounded-lg text-lg font-semibold elegant-transition hover-lift">
@@ -27,46 +28,8 @@ function Home({ id, header, bodyItems }) {
                     </div>
                     <div className="flex justify-center">
                         {/* Elegant Family SVG Illustration */}
-                        <div className="glass-effect p-12 rounded-3xl elegant-shadow">
-                            <svg width="400" height="300" viewBox="0 0 400 300" className="w-full max-w-md">
-                                {/* Father */}
-                                <circle cx="150" cy="120" r="28" fill="#d1493f" opacity="0.9"/>
-                                <rect x="132" y="148" width="36" height="55" rx="18" fill="#8f764e" opacity="0.8"/>
-                                <circle cx="142" cy="108" r="2.5" fill="white"/>
-                                <circle cx="158" cy="108" r="2.5" fill="white"/>
-                                <path d="M138 132 Q150 138 162 132" stroke="white" strokeWidth="2.5" fill="none"/>
-                                
-                                {/* Mother */}
-                                <circle cx="250" cy="120" r="28" fill="#f4c071" opacity="0.9"/>
-                                <rect x="232" y="148" width="36" height="55" rx="18" fill="#8f764e" opacity="0.8"/>
-                                <circle cx="242" cy="108" r="2.5" fill="white"/>
-                                <circle cx="258" cy="108" r="2.5" fill="white"/>
-                                <path d="M238 132 Q250 138 262 132" stroke="white" strokeWidth="2.5" fill="none"/>
-                                
-                                {/* Child 1 */}
-                                <circle cx="170" cy="200" r="22" fill="#d1493f" opacity="0.8"/>
-                                <rect x="154" y="222" width="32" height="45" rx="16" fill="#6b3a1e" opacity="0.7"/>
-                                <circle cx="163" cy="190" r="2" fill="white"/>
-                                <circle cx="177" cy="190" r="2" fill="white"/>
-                                <path d="M159 212 Q170 216 181 212" stroke="white" strokeWidth="2" fill="none"/>
-                                
-                                {/* Child 2 */}
-                                <circle cx="230" cy="200" r="22" fill="#8f764e" opacity="0.8"/>
-                                <rect x="214" y="222" width="32" height="45" rx="16" fill="#6b3a1e" opacity="0.7"/>
-                                <circle cx="223" cy="190" r="2" fill="white"/>
-                                <circle cx="237" cy="190" r="2" fill="white"/>
-                                <path d="M219 212 Q230 216 241 212" stroke="white" strokeWidth="2" fill="none"/>
-                                
-                                {/* Elegant Hearts */}
-                                <g opacity="0.7">
-                                    <path d="M115 75 C115 70, 119 66, 123 69 C127 66, 131 70, 131 75 C131 80, 123 88, 123 88 C123 88, 115 80, 115 75 Z" fill="#d1493f"/>
-                                    <path d="M285 85 C285 81, 288 78, 291 81 C294 78, 297 81, 297 85 C297 89, 291 95, 291 95 C291 95, 285 89, 285 85 Z" fill="#f4c071"/>
-                                </g>
-                                
-                                {/* Connecting Lines */}
-                                <path d="M150 148 Q200 130 250 148" stroke="#6b3a1e" strokeWidth="2" fill="none" opacity="0.4"/>
-                                <path d="M170 222 Q200 205 230 222" stroke="#6b3a1e" strokeWidth="2" fill="none" opacity="0.4"/>
-                            </svg>
+                        <div className="glass-effect p-1 rounded-3xl elegant-shadow">
+                          <img src={family} alt="Family" className="rounded-3xl" />
                         </div>
                     </div>
                 </div>
@@ -89,27 +52,27 @@ function Home({ id, header, bodyItems }) {
                         <div className="w-20 h-20 elegant-button rounded-lg flex items-center justify-center mx-auto mb-6 elegant-shadow">
                             <span className="text-3xl">🌱</span>
                         </div>
-                        <h3 className="text-2xl font-serif font-bold mb-4 text-gray-900">Education</h3>
+                        <h3 className="text-2xl font-serif font-bold mb-4 text-gray-900">Knowledge</h3>
                         <p className="text-gray-600 leading-relaxed font-light">
-                            Access evidence-based parenting strategies and resources that help you understand child development and build stronger family bonds.
+                            Access evidence-based parenting strategies that help you understand and build stronger family bonds.
                         </p>
                     </div>
                     <div className="text-center p-10 glass-effect rounded-xl elegant-card hover-lift elegant-transition">
                         <div className="w-20 h-20 bg-custom-olive rounded-lg flex items-center justify-center mx-auto mb-6 elegant-shadow">
                             <span className="text-3xl">🤝</span>
                         </div>
-                        <h3 className="text-2xl font-serif font-bold mb-4 text-gray-900">Mentorship</h3>
+                        <h3 className="text-2xl font-serif font-bold mb-4 text-gray-900">Resources</h3>
                         <p className="text-gray-600 leading-relaxed font-light">
-                            Connect with experienced parents and certified family coaches who provide guidance and support on your parenting journey.
+                            Find practical tools designed to support your parenting goals and make everyday challenges more manageable.
                         </p>
                     </div>
                     <div className="text-center p-10 glass-effect rounded-xl elegant-card hover-lift elegant-transition">
                         <div className="w-20 h-20 bg-custom-brown rounded-lg flex items-center justify-center mx-auto mb-6 elegant-shadow">
                             <span className="text-3xl">🛠️</span>
                         </div>
-                        <h3 className="text-2xl font-serif font-bold mb-4 text-gray-900">Practical Tools</h3>
+                        <h3 className="text-2xl font-serif font-bold mb-4 text-gray-900">Community</h3>
                         <p className="text-gray-600 leading-relaxed font-light">
-                            Discover actionable techniques and tools that you can implement immediately to create positive change in your family dynamics.
+                            Connect with experienced parents and family coaches who provide guidance and support on your parenting journey.
                         </p>
                     </div>
                 </div>
@@ -130,7 +93,7 @@ function Home({ id, header, bodyItems }) {
                     <button className="bg-custom-gold hover:bg-custom-gold text-gray-900 px-10 py-4 rounded-lg text-lg font-semibold elegant-transition hover-lift elegant-shadow">
                         Get Started Today
                     </button>
-                    <button className="glass-effect border-2 border-white/30 text-white hover:bg-white hover:text-red-600 px-10 py-4 rounded-lg text-lg font-semibold elegant-transition hover-lift">
+                    <button className="glass-effect border-2 border-white/30 text-black hover:bg-white hover:text-red-600 px-10 py-4 rounded-lg text-lg font-semibold elegant-transition hover-lift">
                         Learn More
                     </button>
                 </div>
