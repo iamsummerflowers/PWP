@@ -75,6 +75,79 @@ function About() {
                 </div>
             </div>
 
+            <div className="mb-20">
+                <h2 className="text-4xl font-serif font-bold text-center mb-16 text-gray-900">Meet Our Founder</h2>
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                    <div className="flex justify-center">
+                        <div className="glass-effect p-8 rounded-3xl elegant-shadow">
+                            {/* Founder Photo Placeholder */}
+                            <div className="w-80 h-80 bg-gradient-to-br from-custom-gold to-custom-red rounded-3xl flex items-center justify-center elegant-shadow">
+                                <svg width="200" height="200" viewBox="0 0 200 200" className="text-white">
+                                    <circle cx="100" cy="75" r="35" fill="currentColor" opacity="0.9"/>
+                                    <path d="M100 120 C85 120, 70 130, 70 145 L70 180 L130 180 L130 145 C130 130, 115 120, 100 120 Z" fill="currentColor" opacity="0.9"/>
+                                    <circle cx="88" cy="65" r="3" fill="rgba(0,0,0,0.3)"/>
+                                    <circle cx="112" cy="65" r="3" fill="rgba(0,0,0,0.3)"/>
+                                    <path d="M85 85 Q100 95 115 85" stroke="rgba(0,0,0,0.3)" strokeWidth="2" fill="none"/>
+                                    {/* Heart symbol */}
+                                    <path d="M85 45 C85 40, 89 36, 93 39 C97 36, 101 40, 101 45 C101 50, 93 58, 93 58 C93 58, 85 50, 85 45 Z" fill="rgba(0,0,0,0.2)"/>
+                                </svg>
+                            </div>
+                            <div className="text-center mt-6">
+                                <h3 className="text-2xl font-serif font-bold text-gray-900 mb-2">Sarah Johnson</h3>
+                                <p className="text-custom-red font-semibold">Founder & Lead Family Coach</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="p-4 rounded-md">
+                        <h3 className="text-3xl font-serif font-bold mb-8 text-gray-900">My Story & Why I Started This Mission</h3>
+                        <div className="space-y-6 text-lg text-gray-600 leading-relaxed font-light">
+                            <p>
+                                My journey into family coaching began during my own struggles as a young mother. When my eldest daughter was going through a particularly challenging phase at age 8, I felt overwhelmed and unprepared despite having a background in education.
+                            </p>
+                            <p>
+                                Traditional parenting advice wasn't working for our family's unique dynamics. I found myself searching for evidence-based strategies that honored both my child's individual needs and our family values. This search led me to pursue advanced training in family systems therapy and positive discipline.
+                            </p>
+                            <p>
+                                After transforming my own family relationships and seeing the profound impact on my three children, I knew I had to share these tools with other parents. I founded Parenting with a Purpose because I believe every family deserves access to the support and strategies that can create lasting positive change.
+                            </p>
+                            <p className="text-custom-red font-medium italic">
+                                "My mission is simple: to ensure no parent feels alone in their journey and every child grows up in a home filled with understanding, connection, and purpose."
+                            </p>
+                        </div>
+                        
+                        <div className="mt-10 space-y-4">
+                            <div className="flex items-center space-x-4">
+                                <div className="w-12 h-12 bg-custom-gold rounded-xl flex items-center justify-center">
+                                    <span className="text-white font-bold text-center">👨‍👩‍👧‍👦</span>
+                                </div>
+                                <div>
+                                    <h4 className="font-semibold text-gray-900">Mother of Three</h4>
+                                    <p className="text-gray-600 font-light">Ages 12, 15, and 18</p>
+                                </div>
+                            </div>
+                            <div className="flex items-center space-x-4">
+                                <div className="w-12 h-12 bg-custom-olive rounded-xl flex items-center justify-center">
+                                    <span className="text-white font-bold text-center">🏆</span>
+                                </div>
+                                <div>
+                                    <h4 className="font-semibold text-gray-900">Award-Winning Coach</h4>
+                                    <p className="text-gray-600 font-light">2023 Family Coach of the Year</p>
+                                </div>
+                            </div>
+                            <div className="flex items-center space-x-4">
+                                <div className="w-12 h-12 bg-custom-brown rounded-xl flex items-center justify-center">
+                                    <span className="text-white font-bold text-center">📖</span>
+                                </div>
+                                <div>
+                                    <h4 className="font-semibold text-gray-900">Published Author</h4>
+                                    <p className="text-gray-600 font-light">"Raising Purpose-Driven Children"</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div className="glass-effect p-12 rounded-3xl text-center elegant-shadow">
                 <h2 className="text-4xl font-serif font-bold mb-6 text-gray-900">Our Commitment</h2>
                 <p className="text-lg max-w-5xl mx-auto text-gray-600 leading-relaxed font-light">

@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import Header from './Header/Header.js';
 import Home from './Main/Home.js';
 import About from './Main/About.js';
-import Village from './Main/Village.js';
+import Community from './Main/Community.js';
 import Footer from './Footer/Footer.js';
 
 
@@ -20,7 +20,7 @@ function App() {
         <main className="flex-grow">
             {currentPage === 'home' && <Home />}
             {currentPage === 'about' && <About />}
-            {currentPage === 'village-sunday' && <Village />}
+            {currentPage === 'village-sunday' && <Community />}
         </main>
         <Footer />
     </div>
