@@ -30,24 +30,24 @@ function Community() {
     <div className="min-h-full gradient-elegant">
         <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 py-24">
             <div className="text-center mb-20">
-                <h1 className="text-5xl md:text-6xl font-serif font-bold text-gray-900 mb-8">
+                <h1 className="text-5xl md:text-6xl font-serif font-bold custom-brown mb-8">
                     Community Efforts
                 </h1>
-                <p className="text-xl text-gray-600 max-w-5xl mx-auto leading-relaxed font-light">
+                <p className="text-xl text-black max-w-5xl mx-auto leading-relaxed font-light">
                     Discover our comprehensive community initiatives designed to strengthen families and support parents at every stage of their journey.
                 </p>
             </div>
 
             {/* Community Efforts Section */}
             <div className="mb-0">
-                <h2 className="text-4xl font-serif font-bold text-center mb-16 text-gray-900">Our Community Initiatives</h2>
+                <h2 className="text-4xl font-serif font-bold text-center mb-16 custom-brown">Our Community Initiatives</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     <div className="glass-effect p-8 rounded-3xl elegant-card hover-lift elegant-transition">
                         <div className="w-16 h-16 elegant-button rounded-2xl flex items-center justify-center mx-auto mb-6">
                             <span className="text-2xl text-white text-center">🏠</span>
                         </div>
                         <h3 className="text-2xl font-serif font-bold text-center mb-4 text-gray-900">To & Through</h3>
-                        <p className="text-gray-600 leading-relaxed font-light text-center mb-6">
+                        <p className="text-black leading-relaxed font-light text-center mb-6">
                             Weekly support groups and mentorship programs connecting experienced parents with those seeking guidance and community.
                         </p>
                         <div className="text-center">
@@ -60,7 +60,7 @@ function Community() {
                             <span className="text-2xl text-white text-center">📚</span>
                         </div>
                         <h3 className="text-2xl font-serif font-bold text-center mb-4 text-gray-900">Village Sundays</h3>
-                        <p className="text-gray-600 leading-relaxed font-light text-center mb-6">
+                        <p className="text-black leading-relaxed font-light text-center mb-6">
                             Monthly workshops covering child development, positive discipline, communication skills, and family wellness strategies.
                         </p>
                         <div className="text-center">
@@ -73,7 +73,7 @@ function Community() {
                             <span className="text-2xl text-white text-center">🤝</span>
                         </div>
                         <h3 className="text-2xl font-serif font-bold text-center mb-4 text-gray-900">Workshops</h3>
-                        <p className="text-gray-600 leading-relaxed font-light text-center mb-6">
+                        <p className="text-black leading-relaxed font-light text-center mb-6">
                             24/7 support hotline and emergency assistance for families facing immediate challenges or crisis situations.
                         </p>
                         <div className="text-center">
@@ -86,7 +86,7 @@ function Community() {
                             <span className="text-2xl text-white text-center">🎒</span>
                         </div>
                         <h3 className="text-2xl font-serif font-bold text-center mb-4 text-gray-900">Resource Distribution</h3>
-                        <p className="text-gray-600 leading-relaxed font-light text-center mb-6">
+                        <p className="text-black leading-relaxed font-light text-center mb-6">
                             Free distribution of parenting books, educational materials, and essential family resources to underserved communities.
                         </p>
                         <div className="text-center">
@@ -99,7 +99,7 @@ function Community() {
                             <span className="text-2xl text-white text-center">🌟</span>
                         </div>
                         <h3 className="text-2xl font-serif font-bold text-center mb-4 text-gray-900">Youth Leadership Program</h3>
-                        <p className="text-gray-600 leading-relaxed font-light text-center mb-6">
+                        <p className="text-black leading-relaxed font-light text-center mb-6">
                             Empowering teenagers to become peer mentors and community leaders through structured leadership development and service opportunities.
                         </p>
                         <div className="text-center">
@@ -113,8 +113,8 @@ function Community() {
             <div className="my-10 grid grid-cols-1 lg:grid-cols-1 gap-8">
                 {/* Support Our Mission */}
                 <div className="p-12">
-                    <h2 className="text-3xl font-serif font-bold text-center mb-6 text-gray-900">Support Our Mission</h2>
-                    <p className="text-lg text-gray-600 text-center mb-8 leading-relaxed font-light">
+                    <h2 className="text-3xl font-serif font-bold text-center mb-6 custom-brown">Support Our Mission</h2>
+                    <p className="text-lg text-black text-center mb-8 leading-relaxed font-light">
                         Your generous donations directly impact families in our community. Every contribution helps us expand our reach and deepen our impact.
                         {/* To send your donation through Zelle, please use the following information: */}
                         {/* Email donations@organization.com OR Phone Number 555-555-5555 */}
@@ -124,18 +124,18 @@ function Community() {
                     <div className="text-center">
                         <button 
                             onClick={handleDonateClick}
-                            className="mb-10 w-fit elegant-button text-white px-10 py-4 rounded-xl text-lg font-semibold elegant-transition hover-lift elegant-shadow"
+                            className="mb-10 w-fit bg-custom-brown hover:bg-custom-olive text-white px-10 py-4 rounded-xl text-lg font-semibold elegant-transition hover-lift elegant-shadow"
                         >
                             Make a Donation
                         </button>
                     </div>
 
-                    <p className="text-lg text-gray-600 text-center mb-8 leading-relaxed font-light">
+                    <p className="text-lg text-black text-center mb-8 leading-relaxed font-light">
                         To send your donation through Zelle, please use the following information:
                         {/* Email donations@organization.com OR Phone Number 555-555-5555 */}
                     <ul>
-                        <li><strong>Email</strong> <a href="mailto:donations@organization.com">donations@organization.com</a></li>
-                        <li><strong>Phone Number:</strong> <a href="mailto:donations@organization.com">555-555-5555</a></li>
+                        <li><strong>Email:</strong> donations@organization.com</li>
+                        <li><strong>Phone Number:</strong> 555-555-5555</li>
                         <li><strong>Recipient Name:</strong> Parenting with a Purpose</li>
                     </ul>
                     </p>
@@ -207,7 +207,7 @@ function Community() {
 
             {/* Services & Pricing Section */}
             <div className="my-10">
-                <h2 className="text-4xl font-serif font-bold text-center mb-16 text-gray-900">Services & Pricing</h2>
+                <h2 className="text-4xl font-serif font-bold text-center mb-16 custom-brown">Services & Pricing</h2>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     <div className="glass-effect p-8 rounded-3xl elegant-card hover-lift elegant-transition">
                         <div className="w-16 h-16 elegant-button rounded-2xl flex items-center justify-center mx-auto mb-6">
@@ -218,7 +218,7 @@ function Community() {
                             <div className="text-4xl font-bold custom-red mb-2">$150</div>
                             <div className="text-gray-600 font-light">per 60-minute session</div>
                         </div>
-                        <ul className="space-y-3 text-gray-600 font-light mb-8">
+                        <ul className="space-y-3 text-black font-light mb-8">
                             <li className="text-center space-x-3">
                                 <span className="text-custom-gold w-fit">✓</span>
                                 <span className="w-fit">One-on-one guidance</span>
@@ -244,7 +244,7 @@ function Community() {
                             <div className="text-gray-600 font-light">per month</div>
                             {/* <div className="bg-custom-gold text-white px-3 py-1 rounded-full text-sm font-semibold mt-2 inline-block">Most Popular</div> */}
                         </div>
-                        <ul className="space-y-3 text-gray-600 font-light mb-8">
+                        <ul className="space-y-3 text-black0 font-light mb-8">
                             <li className="text-center space-x-3">
                                 <span className="text-custom-gold w-fit">✓</span>
                                 <span className="w-fit">All workshops included</span>
@@ -273,7 +273,7 @@ function Community() {
                             <div className="text-4xl font-bold custom-red mb-2">$200</div>
                             <div className="text-gray-600 font-light">per case/month</div>
                         </div>
-                        <ul className="space-y-3 text-gray-600 font-light mb-8">
+                        <ul className="space-y-3 text-black font-light mb-8">
                             <li className="text-center space-x-3">
                                 <span className="text-custom-gold w-fit">✓</span>
                                 <span className="w-fit">School system advocacy</span>
@@ -297,7 +297,7 @@ function Community() {
                 <div className="text-center mt-8">
                     <button 
                         onClick={handleContactFounder}
-                        className="w-fit elegant-button text-white px-12 py-4 rounded-xl text-lg font-semibold elegant-transition hover-lift elegant-shadow"
+                        className="w-fit bg-custom-brown hover:bg-custom-olive text-white px-12 py-4 rounded-xl text-lg font-semibold elegant-transition hover-lift elegant-shadow"
                     >
                         Book Consultation
                     </button>
@@ -312,13 +312,13 @@ function Community() {
                 {/* Connect with Our Founder */}
                 <div className="glass-effect p-12 rounded-3xl elegant-shadow">
                     <h2 className="text-3xl font-serif font-bold text-center mb-6 text-gray-900">Reach Out to Learn More</h2>
-                    <p className="text-lg text-gray-600 text-center mb-8 leading-relaxed font-light">
+                    <p className="text-lg text-black text-center mb-8 leading-relaxed font-light">
                         Have questions about our programs or want to discuss how we can support your family? Schedule a personal conversation with Colette Choates.
                     </p>
                     <div className="text-center">
                         <button 
                             onClick={handleContactFounder}
-                            className="w-fit elegant-button text-white px-10 py-4 rounded-xl text-lg font-semibold elegant-transition hover-lift hover:bg-custom-gold elegant-shadow"
+                            className="w-fit bg-custom-brown hover:bg-custom-olive text-white px-10 py-4 rounded-xl text-lg font-semibold elegant-transition hover-lift  elegant-shadow"
                         >
                             Schedule a Call!
                         </button>
