@@ -80,11 +80,14 @@ function About() {
                 <h2 className="text-4xl font-serif font-bold text-center mb-16 text-gray-900">Meet Our Founder</h2>
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
                     <div className="flex justify-center">
-                        <div className="glass-effect p-8 rounded-3xl elegant-shadow">
-                            {/* Founder Photo Placeholder */}
-                            <div className="text-center w-80 h-80 bg-gradient-to-br from-custom-gold to-custom-red rounded-3xl flex items-center justify-center elegant-shadow">
-                              <img src={colette} alt="founder-image" className="w-80 h-80" />
-                            </div>
+                        <div className="w-fit glass-effect p-8 rounded-3xl elegant-shadow">
+                            {/* Founder Photo */}
+                            <img 
+                                src={colette} 
+                                alt="Simple stick figure drawing representing our founder Sarah Johnson" 
+                                className="w-80 h-80 rounded-3xl elegant-shadow object-cover"
+                                onerror="this.src=''; this.alt='Image failed to load'; this.style.display='none';"
+                            />
                             <div className="text-center mt-6">
                                 <h3 className="text-2xl font-serif font-bold text-gray-900 mb-2">Colette Choates</h3>
                                 <p className="text-custom-red font-semibold">Founder & Lead Family Coach</p>
