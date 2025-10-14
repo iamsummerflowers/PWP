@@ -1,5 +1,6 @@
 import React from 'react';
 import './About.css';
+import colette from '../assets/colette.jpg';
 
 
 function About() {
@@ -81,16 +82,8 @@ function About() {
                     <div className="flex justify-center">
                         <div className="glass-effect p-8 rounded-3xl elegant-shadow">
                             {/* Founder Photo Placeholder */}
-                            <div className="w-80 h-80 bg-gradient-to-br from-custom-gold to-custom-red rounded-3xl flex items-center justify-center elegant-shadow">
-                                <svg width="200" height="200" viewBox="0 0 200 200" className="text-white">
-                                    <circle cx="100" cy="75" r="35" fill="currentColor" opacity="0.9"/>
-                                    <path d="M100 120 C85 120, 70 130, 70 145 L70 180 L130 180 L130 145 C130 130, 115 120, 100 120 Z" fill="currentColor" opacity="0.9"/>
-                                    <circle cx="88" cy="65" r="3" fill="rgba(0,0,0,0.3)"/>
-                                    <circle cx="112" cy="65" r="3" fill="rgba(0,0,0,0.3)"/>
-                                    <path d="M85 85 Q100 95 115 85" stroke="rgba(0,0,0,0.3)" strokeWidth="2" fill="none"/>
-                                    {/* Heart symbol */}
-                                    <path d="M85 45 C85 40, 89 36, 93 39 C97 36, 101 40, 101 45 C101 50, 93 58, 93 58 C93 58, 85 50, 85 45 Z" fill="rgba(0,0,0,0.2)"/>
-                                </svg>
+                            <div className="text-center w-80 h-80 bg-gradient-to-br from-custom-gold to-custom-red rounded-3xl flex items-center justify-center elegant-shadow">
+                              <img src={colette} alt="founder-image" className="w-80 h-80" />
                             </div>
                             <div className="text-center mt-6">
                                 <h3 className="text-2xl font-serif font-bold text-gray-900 mb-2">Colette Choates</h3>

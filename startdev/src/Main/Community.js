@@ -8,7 +8,7 @@ function Community() {
     const [customAmount, setCustomAmount] = useState('');
 
     const handleDonateClick = () => {
-        setShowDonationForm(true);
+        window.open('https://www.gofundme.com/f/parenting-with-purpose-community-support', '_blank', 'noopener,noreferrer');
     };
 
     const handleContactFounder = () => {
@@ -46,7 +46,7 @@ function Community() {
                         <div className="w-16 h-16 elegant-button rounded-2xl flex items-center justify-center mx-auto mb-6">
                             <span className="text-2xl text-white text-center">🏠</span>
                         </div>
-                        <h3 className="text-2xl font-serif font-bold text-center mb-4 text-gray-900">Family Support Network</h3>
+                        <h3 className="text-2xl font-serif font-bold text-center mb-4 text-gray-900">To & Through</h3>
                         <p className="text-gray-600 leading-relaxed font-light text-center mb-6">
                             Weekly support groups and mentorship programs connecting experienced parents with those seeking guidance and community.
                         </p>
@@ -59,7 +59,7 @@ function Community() {
                         <div className="w-16 h-16 bg-custom-gold rounded-2xl flex items-center justify-center mx-auto mb-6">
                             <span className="text-2xl text-white text-center">📚</span>
                         </div>
-                        <h3 className="text-2xl font-serif font-bold text-center mb-4 text-gray-900">Educational Workshops</h3>
+                        <h3 className="text-2xl font-serif font-bold text-center mb-4 text-gray-900">Village Sundays</h3>
                         <p className="text-gray-600 leading-relaxed font-light text-center mb-6">
                             Monthly workshops covering child development, positive discipline, communication skills, and family wellness strategies.
                         </p>
@@ -72,7 +72,7 @@ function Community() {
                         <div className="w-16 h-16 bg-custom-olive rounded-2xl flex items-center justify-center mx-auto mb-6">
                             <span className="text-2xl text-white text-center">🤝</span>
                         </div>
-                        <h3 className="text-2xl font-serif font-bold text-center mb-4 text-gray-900">Crisis Intervention</h3>
+                        <h3 className="text-2xl font-serif font-bold text-center mb-4 text-gray-900">Workshops</h3>
                         <p className="text-gray-600 leading-relaxed font-light text-center mb-6">
                             24/7 support hotline and emergency assistance for families facing immediate challenges or crisis situations.
                         </p>
@@ -116,16 +116,29 @@ function Community() {
                     <h2 className="text-3xl font-serif font-bold text-center mb-6 text-gray-900">Support Our Mission</h2>
                     <p className="text-lg text-gray-600 text-center mb-8 leading-relaxed font-light">
                         Your generous donations directly impact families in our community. Every contribution helps us expand our reach and deepen our impact.
+                        {/* To send your donation through Zelle, please use the following information: */}
+                        {/* Email donations@organization.com OR Phone Number 555-555-5555 */}
                     </p>
+
 
                     <div className="text-center">
                         <button 
                             onClick={handleDonateClick}
-                            className="w-fit elegant-button text-white px-10 py-4 rounded-xl text-lg font-semibold elegant-transition hover-lift elegant-shadow"
+                            className="mb-10 w-fit elegant-button text-white px-10 py-4 rounded-xl text-lg font-semibold elegant-transition hover-lift elegant-shadow"
                         >
                             Make a Donation
                         </button>
                     </div>
+
+                    <p className="text-lg text-gray-600 text-center mb-8 leading-relaxed font-light">
+                        To send your donation through Zelle, please use the following information:
+                        {/* Email donations@organization.com OR Phone Number 555-555-5555 */}
+                    <ul>
+                        <li><strong>Email</strong> <a href="mailto:donations@organization.com">donations@organization.com</a></li>
+                        <li><strong>Phone Number:</strong> <a href="mailto:donations@organization.com">555-555-5555</a></li>
+                        <li><strong>Recipient Name:</strong> [Organization Name]</li>
+                    </ul>
+                    </p>
 
                     {/* Donation Form Modal */}
                     {showDonationForm && (
@@ -229,7 +242,7 @@ function Community() {
                         <div className="text-center mb-6">
                             <div className="text-4xl font-bold custom-red mb-2">$49</div>
                             <div className="text-gray-600 font-light">per month</div>
-                            <div className="bg-custom-gold text-white px-3 py-1 rounded-full text-sm font-semibold mt-2 inline-block">Most Popular</div>
+                            {/* <div className="bg-custom-gold text-white px-3 py-1 rounded-full text-sm font-semibold mt-2 inline-block">Most Popular</div> */}
                         </div>
                         <ul className="space-y-3 text-gray-600 font-light mb-8">
                             <li className="flex items-center space-x-3">
@@ -289,7 +302,7 @@ function Community() {
                         Book Consultation
                     </button>
                     {/* <p className="text-gray-500 font-light mt-3 text-sm">
-                        Schedule your personalized consultation with Collette Choates
+                        Schedule your personalized consultation with Colette Choates
                     </p> */}
                 </div>
             </div>
@@ -300,7 +313,7 @@ function Community() {
                 <div className="glass-effect p-12 rounded-3xl elegant-shadow">
                     <h2 className="text-3xl font-serif font-bold text-center mb-6 text-gray-900">Reach Out to Learn More</h2>
                     <p className="text-lg text-gray-600 text-center mb-8 leading-relaxed font-light">
-                        Have questions about our programs or want to discuss how we can support your family? Schedule a personal conversation with Collette Choates.
+                        Have questions about our programs or want to discuss how we can support your family? Schedule a personal conversation with Colette Choates.
                     </p>
                     <div className="text-center">
                         <button 

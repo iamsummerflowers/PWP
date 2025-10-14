@@ -68,7 +68,9 @@ function Home({ id, header, bodyItems }) {
                     </div>
                     <div className="text-center p-10 glass-effect rounded-xl elegant-card hover-lift elegant-transition">
                         <div className="w-20 h-20 bg-custom-brown rounded-lg flex items-center justify-center mx-auto mb-6 elegant-shadow">
-                            <span className="text-3xl">🛠️</span>
+                            {/* <span className="text-3xl">🛠️</span> */}
+                            <i class="fi fi-bs-people-roof text-4xl text-white"></i>
+
                         </div>
                         <h3 className="text-2xl font-serif font-bold mb-4 text-gray-900">Community</h3>
                         <p className="text-gray-600 leading-relaxed font-light">
