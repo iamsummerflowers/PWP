@@ -93,7 +93,7 @@ function About() {
                                 </svg>
                             </div>
                             <div className="text-center mt-6">
-                                <h3 className="text-2xl font-serif font-bold text-gray-900 mb-2">Sarah Johnson</h3>
+                                <h3 className="text-2xl font-serif font-bold text-gray-900 mb-2">Colette Choates</h3>
                                 <p className="text-custom-red font-semibold">Founder & Lead Family Coach</p>
                             </div>
                         </div>

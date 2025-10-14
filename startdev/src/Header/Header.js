@@ -51,7 +51,7 @@ function Header({ currentPage, setCurrentPage }) {
                                     : 'text-gray-700 hover:bg-red-100 custom-red'
                             }`}
                         >
-                            Village Sunday
+                            Community Efforts
                         </button>
                     </div>
                 </div>
