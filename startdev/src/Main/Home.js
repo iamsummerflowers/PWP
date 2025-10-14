@@ -7,14 +7,14 @@ function Home({ id, header, bodyItems }) {
     <div className="min-h-full">
         {/* Hero Section */}
         <section className="hero-gradient py-32 relative overflow-hidden">
-            <div className="absolute inset-0 bg-gradient-to-br from-transparent via-white/10 to-white/20"></div>
+            <div className="absolute inset-0  from-transparent via-white/10 to-white/20"></div>
             <div className="relative max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
                     <div>
-                        <h1 className="text-5xl md:text-7xl font-serif font-bold text-gray-900 mb-8 leading-tight text-shadow">
+                        <h1 className="text-5xl md:text-7xl font-serif font-bold custom-gold mb-8 leading-tight text-shadow">
                             Parenting with a Purpose
                         </h1>
-                        <p className="text-xl md:text-2xl text-gray-800 mb-12 leading-relaxed font-light">
+                        <p className="text-xl md:text-2xl text-white mb-12 leading-relaxed font-light">
                             Parenting with a Purpose equips and empowers parents with the knowledge,resources, and community support they need to raise resilient, compassionate, and purpose-driven children. We are committed to strengthening families through education, mentorship, and practical tools that foster positive relationships and lasting impact for generations to come.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-6">
@@ -49,8 +49,9 @@ function Home({ id, header, bodyItems }) {
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
                     <div className="text-center p-10 glass-effect rounded-xl elegant-card hover-lift elegant-transition">
-                        <div className="w-20 h-20 elegant-button rounded-lg flex items-center justify-center mx-auto mb-6 elegant-shadow">
-                            <span className="text-3xl">🌱</span>
+                        <div className="w-20 h-20 bg-custom-brown rounded-lg flex items-center justify-center mx-auto mb-6 elegant-shadow">
+                            {/* <span className="text-3xl">🌱</span> */}
+                            <i class="fi fi-sr-books text-4xl text-white"></i>
                         </div>
                         <h3 className="text-2xl font-serif font-bold mb-4 text-gray-900">Knowledge</h3>
                         <p className="text-gray-600 leading-relaxed font-light">
@@ -59,7 +60,8 @@ function Home({ id, header, bodyItems }) {
                     </div>
                     <div className="text-center p-10 glass-effect rounded-xl elegant-card hover-lift elegant-transition">
                         <div className="w-20 h-20 bg-custom-olive rounded-lg flex items-center justify-center mx-auto mb-6 elegant-shadow">
-                            <span className="text-3xl">🤝</span>
+                            {/* <span className="text-3xl">🤝</span> */}
+                            <i class="fi fi-sr-hand-holding-heart text-4xl text-white"></i>
                         </div>
                         <h3 className="text-2xl font-serif font-bold mb-4 text-gray-900">Resources</h3>
                         <p className="text-gray-600 leading-relaxed font-light">
@@ -67,9 +69,9 @@ function Home({ id, header, bodyItems }) {
                         </p>
                     </div>
                     <div className="text-center p-10 glass-effect rounded-xl elegant-card hover-lift elegant-transition">
-                        <div className="w-20 h-20 bg-custom-brown rounded-lg flex items-center justify-center mx-auto mb-6 elegant-shadow">
+                        <div className="w-20 h-20 bg-custom-gold rounded-lg flex items-center justify-center mx-auto mb-6 elegant-shadow">
                             {/* <span className="text-3xl">🛠️</span> */}
-                            <i class="fi fi-bs-people-roof text-4xl text-white"></i>
+                            <i class="fi fi-bs-people-roof text-4xl custom-brown"></i>
 
                         </div>
                         <h3 className="text-2xl font-serif font-bold mb-4 text-gray-900">Community</h3>
@@ -92,10 +94,10 @@ function Home({ id, header, bodyItems }) {
                     Join thousands of parents who are already building stronger, more purposeful families. Start your journey today.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-6 justify-center">
-                    <button className="bg-custom-gold hover:bg-custom-gold text-gray-900 px-10 py-4 rounded-lg text-lg font-semibold elegant-transition hover-lift elegant-shadow">
+                    <button className="bg-custom-gold hover:bg-custom-gold custom-brown px-10 py-4 rounded-lg text-lg font-semibold elegant-transition hover-lift elegant-shadow">
                         Get Started Today
                     </button>
-                    <button className="glass-effect border-2 border-white/30 text-black hover:bg-white hover:text-red-600 px-10 py-4 rounded-lg text-lg font-semibold elegant-transition hover-lift">
+                    <button className="glass-effect border-2 border-white/30 custom-brown hover:bg-white px-10 py-4 rounded-lg text-lg font-semibold elegant-transition hover-lift">
                         Learn More
                     </button>
                 </div>

@@ -14,7 +14,7 @@ function Header({ currentPage, setCurrentPage }) {
                 <div className="w-1/12 flex items-center">
                     <button 
                         onClick={() => setCurrentPage('home')}
-                        className="custom-redx text-lg font-serif font-semibold hover:opacity-80 elegant-transition tracking-wide flex"
+                        className="text-lg font-serif font-semibold hover:opacity-80 elegant-transition tracking-wide flex"
                     >
                         PWP
                     </button>
@@ -28,7 +28,7 @@ function Header({ currentPage, setCurrentPage }) {
                             className={`px-0 py-3 rounded-lg text-sm font-medium elegant-transition ${
                                 currentPage === 'home' 
                                     ? 'elegant-button text-white' 
-                                    : 'text-gray-700 hover:bg-red-100 custom-redx'
+                                    : 'custom-red hover:text-black'
                             }`}
                         >
                             Home
@@ -38,7 +38,7 @@ function Header({ currentPage, setCurrentPage }) {
                             className={`px-0 py-3 rounded-lg text-sm font-medium elegant-transition ${
                                 currentPage === 'about' 
                                     ? 'elegant-button text-white' 
-                                    : 'text-gray-700 hover:bg-red-100 custom-red'
+                                    : 'custom-red hover:text-black'
                             }`}
                         >
                             About
@@ -48,7 +48,7 @@ function Header({ currentPage, setCurrentPage }) {
                             className={`px-0 py-3 rounded-lg text-sm font-medium elegant-transition ${
                                 currentPage === 'village-sunday' 
                                     ? 'elegant-button text-white' 
-                                    : 'text-gray-700 hover:bg-red-100 custom-red'
+                                    : 'custom-red hover:text-black'
                             }`}
                         >
                             Community Efforts

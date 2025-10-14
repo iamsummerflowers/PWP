@@ -1,6 +1,7 @@
 import React from 'react';
 import './About.css';
 import colette from '../assets/colette.jpg';
+import pwp from '../assets/PWP.jpg';
 
 
 function About() {
@@ -32,27 +33,13 @@ function About() {
                     </div>
                 </div>
                 <div className="flex justify-center">
-                    <div className="glass-effect p-12 rounded-3xl elegant-shadow">
-                        <svg width="350" height="250" viewBox="0 0 350 250" className="w-full">
-                            {/* Tree trunk */}
-                            <rect x="165" y="150" width="20" height="70" rx="10" fill="#6b3a1e" opacity="0.8"/>
-                            
-                            {/* Tree foliage - elegant layered circles */}
-                            <circle cx="175" cy="130" r="50" fill="#d1493f" opacity="0.7"/>
-                            <circle cx="150" cy="110" r="40" fill="#f4c071" opacity="0.6"/>
-                            <circle cx="200" cy="110" r="40" fill="#8f764e" opacity="0.6"/>
-                            <circle cx="175" cy="90" r="30" fill="#6b3a1e" opacity="0.5"/>
-                            
-                            {/* Root system - elegant curves */}
-                            <path d="M165 220 Q140 235 110 230" stroke="#6b3a1e" strokeWidth="5" fill="none" opacity="0.6"/>
-                            <path d="M185 220 Q210 235 240 230" stroke="#6b3a1e" strokeWidth="5" fill="none" opacity="0.6"/>
-                            <path d="M175 220 Q175 240 175 250" stroke="#6b3a1e" strokeWidth="5" fill="none" opacity="0.6"/>
-                            
-                            {/* Decorative elements */}
-                            <circle cx="120" cy="80" r="3" fill="#f4c071" opacity="0.8"/>
-                            <circle cx="230" cy="70" r="3" fill="#d1493f" opacity="0.8"/>
-                            <circle cx="260" cy="120" r="3" fill="#8f764e" opacity="0.8"/>
-                        </svg>
+                    <div className="glass-effect2 p-12 rounded-3xl elegant-shadow">
+                        <img 
+                            src={pwp} 
+                            alt="PWP logo" 
+                            className="w-full max-w-md rounded-2xl elegant-shadow"
+                            onerror="this.src=''; this.alt='Image failed to load'; this.style.display='none';"
+                        />
                     </div>
                 </div>
             </div>
@@ -80,7 +67,7 @@ function About() {
                 <h2 className="text-4xl font-serif font-bold text-center mb-16 text-gray-900">Meet Our Founder</h2>
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
                     <div className="flex justify-center">
-                        <div className="w-fit glass-effect p-8 rounded-3xl elegant-shadow">
+                        <div className="w-fit glass-effect2 p-8 rounded-3xl elegant-shadow">
                             {/* Founder Photo */}
                             <img 
                                 src={colette} 
@@ -89,8 +76,8 @@ function About() {
                                 onerror="this.src=''; this.alt='Image failed to load'; this.style.display='none';"
                             />
                             <div className="text-center mt-6">
-                                <h3 className="text-2xl font-serif font-bold text-gray-900 mb-2">Colette Choates</h3>
-                                <p className="text-custom-red font-semibold">Founder & Lead Family Coach</p>
+                                <h3 className="text-white text-2xl font-serif font-bold mb-2">Colette Choates</h3>
+                                <p className="text-white font-semibold">Founder & Lead Family Coach</p>
                             </div>
                         </div>
                     </div>
@@ -107,23 +94,25 @@ function About() {
                                 After transforming my own family relationships and seeing the profound impact on my three children, I knew I had to share these tools with other parents. I founded Parenting with a Purpose because I believe every family deserves access to the support and strategies that can create lasting positive change.
                             </p>
                             <p className="text-custom-red font-medium italic">
-                                "My mission is simple: to ensure no parent feels alone in their journey and every child grows up in a home filled with understanding, connection, and purpose."
+                                "My mission is simple: equip and empower parents with the knowledge,resources, and community support they need to raise resilient, compassionate, and purpose-driven children."
                             </p>
                         </div>
                         
                         <div className="mt-10 space-y-4">
                             <div className="flex items-center space-x-4">
                                 <div className="w-12 h-12 bg-custom-gold rounded-xl flex items-center justify-center">
-                                    <span className="text-white font-bold text-center">👨‍👩‍👧‍👦</span>
+                                    {/* <span className="text-white font-bold text-center">👨‍👩‍👧‍👦</span> */}
+                                    <i class="fi fi-sr-family text-center text-xl text-black"></i>
                                 </div>
                                 <div>
-                                    <h4 className="font-semibold text-gray-900">Mother of Three</h4>
-                                    <p className="text-gray-600 font-light">Ages 12, 15, and 18</p>
+                                    <h4 className="font-semibold text-gray-900">Mother of Six</h4>
+                                    <p className="text-gray-600 font-light">4 Girls & 2 Boys</p>
                                 </div>
                             </div>
                             <div className="flex items-center space-x-4">
                                 <div className="w-12 h-12 bg-custom-olive rounded-xl flex items-center justify-center">
-                                    <span className="text-white font-bold text-center">🏆</span>
+                                    {/* <span className="text-white font-bold text-center">🏆</span> */}
+                                    <i class="fi fi-ss-award text-center text-xl text-white"></i>
                                 </div>
                                 <div>
                                     <h4 className="font-semibold text-gray-900">Award-Winning Coach</h4>
@@ -132,7 +121,8 @@ function About() {
                             </div>
                             <div className="flex items-center space-x-4">
                                 <div className="w-12 h-12 bg-custom-brown rounded-xl flex items-center justify-center">
-                                    <span className="text-white font-bold text-center">📖</span>
+                                    {/* <span className="text-white font-bold text-center">📖</span> */}
+                                    <i class="fi fi-sr-user-writer text-center text-xl text-white"></i>
                                 </div>
                                 <div>
                                     <h4 className="font-semibold text-gray-900">Published Author</h4>

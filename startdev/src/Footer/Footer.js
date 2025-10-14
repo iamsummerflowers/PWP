@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 function Footer() {
     return (
-      <footer className="bg-custom-brown text-white relative overflow-hidden">
+      <footer className="bg-custom-brown custom-gold relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-custom-brown via-custom-brown to-gray-900 opacity-90"></div>
         <div className="relative max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 py-16">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -63,7 +63,7 @@ function Footer() {
                             </svg>
                         </a>
                     </div>
-                    <button className="w-fit elegant-button text-white px-6 py-3 rounded-lg font-medium elegant-transition hover-lift text-sm">
+                    <button className="w-fit elegant-button custom-brown px-6 py-3 rounded-lg font-medium elegant-transition hover-lift text-sm">
                         Join Community
                     </button>
                 </div>

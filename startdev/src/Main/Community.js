@@ -136,7 +136,7 @@ function Community() {
                     <ul>
                         <li><strong>Email</strong> <a href="mailto:donations@organization.com">donations@organization.com</a></li>
                         <li><strong>Phone Number:</strong> <a href="mailto:donations@organization.com">555-555-5555</a></li>
-                        <li><strong>Recipient Name:</strong> [Organization Name]</li>
+                        <li><strong>Recipient Name:</strong> Parenting with a Purpose</li>
                     </ul>
                     </p>
 
@@ -213,23 +213,23 @@ function Community() {
                         <div className="w-16 h-16 elegant-button rounded-2xl flex items-center justify-center mx-auto mb-6">
                             <span className="text-2xl text-white text-center">💬</span>
                         </div>
-                        <h3 className="text-2xl font-serif font-bold text-center mb-4 text-gray-900">Personal Consulting</h3>
+                        <h3 className="text-center text-2xl font-serif font-bold text-center mb-4 text-gray-900">Personal Consulting</h3>
                         <div className="text-center mb-6">
                             <div className="text-4xl font-bold custom-red mb-2">$150</div>
                             <div className="text-gray-600 font-light">per 60-minute session</div>
                         </div>
                         <ul className="space-y-3 text-gray-600 font-light mb-8">
-                            <li className="flex items-center space-x-3">
+                            <li className="text-center space-x-3">
                                 <span className="text-custom-gold w-fit">✓</span>
-                                <span>One-on-one guidance</span>
+                                <span className="w-fit">One-on-one guidance</span>
                             </li>
-                            <li className="flex items-center space-x-3">
+                            <li className="text-center space-x-3">
                                 <span className="text-custom-gold w-fit">✓</span>
-                                <span>Customized action plans</span>
+                                <span className="w-fit">Customized action plans</span>
                             </li>
-                            <li className="flex items-center space-x-3">
+                            <li className="text-center space-x-3">
                                 <span className="text-custom-gold w-fit">✓</span>
-                                <span>Follow-up resources</span>
+                                <span className="w-fit">Follow-up resources</span>
                             </li>
                         </ul>
                     </div>
@@ -238,28 +238,28 @@ function Community() {
                         <div className="w-16 h-16 bg-custom-gold rounded-2xl flex items-center justify-center mx-auto mb-6">
                             <span className="text-2xl text-white text-center">👥</span>
                         </div>
-                        <h3 className="text-2xl font-serif font-bold text-center mb-4 text-gray-900">PWP Membership</h3>
+                        <h3 className="text-center text-2xl font-serif font-bold text-center mb-4 text-gray-900">PWP Membership</h3>
                         <div className="text-center mb-6">
                             <div className="text-4xl font-bold custom-red mb-2">$49</div>
                             <div className="text-gray-600 font-light">per month</div>
                             {/* <div className="bg-custom-gold text-white px-3 py-1 rounded-full text-sm font-semibold mt-2 inline-block">Most Popular</div> */}
                         </div>
                         <ul className="space-y-3 text-gray-600 font-light mb-8">
-                            <li className="flex items-center space-x-3">
+                            <li className="text-center space-x-3">
                                 <span className="text-custom-gold w-fit">✓</span>
-                                <span>All workshops included</span>
+                                <span className="w-fit">All workshops included</span>
                             </li>
-                            <li className="flex items-center space-x-3">
+                            <li className="text-center space-x-3">
                                 <span className="text-custom-gold w-fit">✓</span>
-                                <span>Support group access</span>
+                                <span className="w-fit">Support group access</span>
                             </li>
-                            <li className="flex items-center space-x-3">
+                            <li className="text-center space-x-3">
                                 <span className="text-custom-gold w-fit">✓</span>
-                                <span>Resource library</span>
+                                <span className="w-fit">Resource library</span>
                             </li>
-                            <li className="flex items-center space-x-3">
+                            <li className="text-center space-x-3">
                                 <span className="text-custom-gold w-fit">✓</span>
-                                <span>Monthly group calls</span>
+                                <span className="w-fit">Monthly group calls</span>
                             </li>
                         </ul>
                     </div>
@@ -268,27 +268,27 @@ function Community() {
                         <div className="w-16 h-16 bg-custom-olive rounded-2xl flex items-center justify-center mx-auto mb-6">
                             <span className="text-2xl text-white text-center">🗣️</span>
                         </div>
-                        <h3 className="text-2xl font-serif font-bold text-center mb-4 text-gray-900">Community Advocacy</h3>
+                        <h3 className="text-center text-2xl font-serif font-bold text-center mb-4 text-gray-900">Community Advocacy</h3>
                         <div className="text-center mb-6">
                             <div className="text-4xl font-bold custom-red mb-2">$200</div>
                             <div className="text-gray-600 font-light">per case/month</div>
                         </div>
                         <ul className="space-y-3 text-gray-600 font-light mb-8">
-                            <li className="flex items-center space-x-3">
+                            <li className="text-center space-x-3">
                                 <span className="text-custom-gold w-fit">✓</span>
-                                <span>School system advocacy</span>
+                                <span className="w-fit">School system advocacy</span>
                             </li>
-                            <li className="flex items-center space-x-3">
+                            <li className="text-center space-x-3">
                                 <span className="text-custom-gold w-fit">✓</span>
-                                <span>Legal support coordination</span>
+                                <span className="w-fit">Legal support coordination</span>
                             </li>
-                            <li className="flex items-center space-x-3">
+                            <li className="text-center space-x-3">
                                 <span className="text-custom-gold w-fit">✓</span>
-                                <span>Resource navigation</span>
+                                <span className="w-fit">Resource navigation</span>
                             </li>
-                            <li className="flex items-center space-x-3">
+                            <li className="text-center space-x-3">
                                 <span className="text-custom-gold w-fit">✓</span>
-                                <span>Crisis intervention</span>
+                                <span className="w-fit">Crisis intervention</span>
                             </li>
                         </ul>
                     </div>
