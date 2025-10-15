@@ -72,7 +72,7 @@ function Community() {
                         <div className="w-16 h-16 bg-custom-olive rounded-2xl flex items-center justify-center mx-auto mb-6">
                             <span className="text-2xl text-white text-center">🤝</span>
                         </div>
-                        <h3 className="text-2xl font-serif font-bold text-center mb-4 text-gray-900">Workshops</h3>
+                        <h3 className="text-2xl font-serif font-bold text-center mb-4 text-gray-900">Random Acts of Kindness</h3>
                         <p className="text-black leading-relaxed font-light text-center mb-6">
                             24/7 support hotline and emergency assistance for families facing immediate challenges or crisis situations.
                         </p>
@@ -85,7 +85,7 @@ function Community() {
                         <div className="w-16 h-16 bg-custom-brown rounded-2xl flex items-center justify-center mx-auto mb-6">
                             <span className="text-2xl text-white text-center">🎒</span>
                         </div>
-                        <h3 className="text-2xl font-serif font-bold text-center mb-4 text-gray-900">Resource Distribution</h3>
+                        <h3 className="text-2xl font-serif font-bold text-center mb-4 text-gray-900">Scholarships</h3>
                         <p className="text-black leading-relaxed font-light text-center mb-6">
                             Free distribution of parenting books, educational materials, and essential family resources to underserved communities.
                         </p>
@@ -98,7 +98,7 @@ function Community() {
                         <div className="w-16 h-16 bg-purple-600 rounded-2xl flex items-center justify-center mx-auto mb-6">
                             <span className="text-2xl text-white text-center">🌟</span>
                         </div>
-                        <h3 className="text-2xl font-serif font-bold text-center mb-4 text-gray-900">Youth Leadership Program</h3>
+                        <h3 className="text-2xl font-serif font-bold text-center mb-4 text-gray-900">Juneteenth</h3>
                         <p className="text-black leading-relaxed font-light text-center mb-6">
                             Empowering teenagers to become peer mentors and community leaders through structured leadership development and service opportunities.
                         </p>
@@ -238,7 +238,7 @@ function Community() {
                         <div className="w-16 h-16 bg-custom-gold rounded-2xl flex items-center justify-center mx-auto mb-6">
                             <span className="text-2xl text-white text-center">👥</span>
                         </div>
-                        <h3 className="text-center text-2xl font-serif font-bold text-center mb-4 text-gray-900">PWP Membership</h3>
+                        <h3 className="text-center text-2xl font-serif font-bold text-center mb-4 text-gray-900">PWP Mentorship</h3>
                         <div className="text-center mb-6">
                             <div className="text-4xl font-bold custom-red mb-2">$49</div>
                             <div className="text-gray-600 font-light">per month</div>
