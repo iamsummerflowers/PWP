@@ -43,8 +43,9 @@ function Community() {
                 <h2 className="text-4xl font-serif font-bold text-center mb-16 custom-brown">Our Community Initiatives</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     <div className="glass-effect p-8 rounded-3xl elegant-card hover-lift elegant-transition">
-                        <div className="w-16 h-16 elegant-button rounded-2xl flex items-center justify-center mx-auto mb-6">
-                            <span className="text-2xl text-white text-center">🏠</span>
+                        <div className="w-16 h-16 bg-custom-brown rounded-2xl flex items-center justify-center mx-auto mb-6">
+                            {/* <span className="text-2xl text-white text-center">🏠</span> */}
+                            <i class="fi fi-br-journey text-center text-2xl custom-gold"></i>
                         </div>
                         <h3 className="text-2xl font-serif font-bold text-center mb-4 text-gray-900">To & Through</h3>
                         <p className="text-black leading-relaxed font-light text-center mb-6">
@@ -56,8 +57,9 @@ function Community() {
                     </div>
 
                     <div className="glass-effect p-8 rounded-3xl elegant-card hover-lift elegant-transition">
-                        <div className="w-16 h-16 bg-custom-gold rounded-2xl flex items-center justify-center mx-auto mb-6">
-                            <span className="text-2xl text-white text-center">📚</span>
+                        <div className="w-16 h-16 bg-custom-brown rounded-2xl flex items-center justify-center mx-auto mb-6">
+                            {/* <span className="text-2xl text-white text-center">📚</span> */}
+                            <i class="fi fi-sr-people-roof text-center text-2xl custom-gold"></i>
                         </div>
                         <h3 className="text-2xl font-serif font-bold text-center mb-4 text-gray-900">Village Sundays</h3>
                         <p className="text-black leading-relaxed font-light text-center mb-6">
@@ -69,8 +71,9 @@ function Community() {
                     </div>
 
                     <div className="glass-effect p-8 rounded-3xl elegant-card hover-lift elegant-transition">
-                        <div className="w-16 h-16 bg-custom-olive rounded-2xl flex items-center justify-center mx-auto mb-6">
-                            <span className="text-2xl text-white text-center">🤝</span>
+                        <div className="w-16 h-16 bg-custom-brown rounded-2xl flex items-center justify-center mx-auto mb-6">
+                            {/* <span className="text-2xl text-white text-center">🤝</span> */}
+                            <i class="fi fi-sc-hand-holding-heart pt-1 text-center text-2xl custom-gold"></i>
                         </div>
                         <h3 className="text-2xl font-serif font-bold text-center mb-4 text-gray-900">Random Acts of Kindness</h3>
                         <p className="text-black leading-relaxed font-light text-center mb-6">
@@ -83,7 +86,8 @@ function Community() {
 
                     <div className="glass-effect p-8 rounded-3xl elegant-card hover-lift elegant-transition">
                         <div className="w-16 h-16 bg-custom-brown rounded-2xl flex items-center justify-center mx-auto mb-6">
-                            <span className="text-2xl text-white text-center">🎒</span>
+                            {/* <span className="text-2xl text-white text-center">🎒</span> */}
+                            <i class="fi fi-ss-graduation-cap text-center text-2xl custom-gold"></i>
                         </div>
                         <h3 className="text-2xl font-serif font-bold text-center mb-4 text-gray-900">Scholarships</h3>
                         <p className="text-black leading-relaxed font-light text-center mb-6">
@@ -94,16 +98,31 @@ function Community() {
                         </div>
                     </div>
 
-                    <div className="glass-effect p-8 rounded-3xl elegant-card hover-lift elegant-transition md:col-span-2 lg:col-span-1">
-                        <div className="w-16 h-16 bg-purple-600 rounded-2xl flex items-center justify-center mx-auto mb-6">
-                            <span className="text-2xl text-white text-center">🌟</span>
+                    <div className="glass-effect p-8 rounded-3xl elegant-card hover-lift elegant-transition">
+                        <div className="w-16 h-16 bg-custom-brown rounded-2xl flex items-center justify-center mx-auto mb-6">
+                            {/* <span className="text-2xl text-white text-center">🎒</span> */}
+                            <i class="fi fi-sr-party-horn text-center text-2xl custom-gold"></i>
                         </div>
                         <h3 className="text-2xl font-serif font-bold text-center mb-4 text-gray-900">Juneteenth</h3>
                         <p className="text-black leading-relaxed font-light text-center mb-6">
-                            Empowering teenagers to become peer mentors and community leaders through structured leadership development and service opportunities.
+                            Free distribution of parenting books, educational materials, and essential family resources to underserved communities.
                         </p>
                         <div className="text-center">
-                            <span className="bg-purple-100 text-purple-600 px-3 py-1 rounded-full text-sm font-semibold">Youth Leaders: 45+</span>
+                            <span className="bg-custom-brown/10 text-custom-brown px-3 py-1 rounded-full text-sm font-semibold">Resources Distributed: 1,200+</span>
+                        </div>
+                    </div>
+
+                    <div className="glass-effect p-8 rounded-3xl elegant-card hover-lift elegant-transition">
+                        <div className="w-16 h-16 bg-custom-brown rounded-2xl flex items-center justify-center mx-auto mb-6">
+                            {/* <span className="text-2xl text-white text-center">🎒</span> */}
+                            <i class="fi fi-ss-flag pt-1 text-center text-2xl custom-gold"></i>
+                        </div>
+                        <h3 className="text-2xl font-serif font-bold text-center mb-4 text-gray-900">Flag Raising</h3>
+                        <p className="text-black leading-relaxed font-light text-center mb-6">
+                            Free distribution of parenting books, educational materials, and essential family resources to underserved communities.
+                        </p>
+                        <div className="text-center">
+                            <span className="bg-custom-brown/10 text-custom-brown px-3 py-1 rounded-full text-sm font-semibold">Resources Distributed: 1,200+</span>
                         </div>
                     </div>
                 </div>
@@ -210,8 +229,9 @@ function Community() {
                 <h2 className="text-4xl font-serif font-bold text-center mb-16 custom-brown">Services & Pricing</h2>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     <div className="glass-effect p-8 rounded-3xl elegant-card hover-lift elegant-transition">
-                        <div className="w-16 h-16 elegant-button rounded-2xl flex items-center justify-center mx-auto mb-6">
-                            <span className="text-2xl text-white text-center">💬</span>
+                        <div className="w-16 h-16 bg-custom-olive rounded-2xl flex items-center justify-center mx-auto mb-6">
+                            {/* <span className="text-2xl text-white text-center">💬</span> */}
+                            <i class="fi fi-sr-messages pt-1 text-center text-2xl custom-brown"></i>
                         </div>
                         <h3 className="text-center text-2xl font-serif font-bold text-center mb-4 text-gray-900">Personal Consulting</h3>
                         <div className="text-center mb-6">
@@ -235,8 +255,9 @@ function Community() {
                     </div>
 
                     <div className="glass-effect p-8 rounded-3xl elegant-card hover-lift elegant-transition border-2 border-custom-gold">
-                        <div className="w-16 h-16 bg-custom-gold rounded-2xl flex items-center justify-center mx-auto mb-6">
-                            <span className="text-2xl text-white text-center">👥</span>
+                        <div className="w-16 h-16 bg-custom-olive rounded-2xl flex items-center justify-center mx-auto mb-6">
+                            {/* <span className="text-2xl text-white text-center">👥</span> */}
+                            <i class="fi fi-sr-users pt-1 text-center text-2xl custom-brown"></i>
                         </div>
                         <h3 className="text-center text-2xl font-serif font-bold text-center mb-4 text-gray-900">PWP Mentorship</h3>
                         <div className="text-center mb-6">
@@ -266,7 +287,8 @@ function Community() {
 
                     <div className="glass-effect p-8 rounded-3xl elegant-card hover-lift elegant-transition">
                         <div className="w-16 h-16 bg-custom-olive rounded-2xl flex items-center justify-center mx-auto mb-6">
-                            <span className="text-2xl text-white text-center">🗣️</span>
+                            {/* <span className="text-2xl text-white text-center">🗣️</span> */}
+                            <i class="fi fi-ss-leader-speech pt-1 text-center text-2xl custom-brown"></i>
                         </div>
                         <h3 className="text-center text-2xl font-serif font-bold text-center mb-4 text-gray-900">Community Advocacy</h3>
                         <div className="text-center mb-6">
