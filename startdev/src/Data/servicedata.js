@@ -1,42 +1,46 @@
 export const serviceData = [
                 {
                     id: 'consulting',
-                    title: "Personal Consulting",
-                    icon: "💬",
+                    title: "Business Consulting Services",
+                    icon: <i class="fi fi-sr-messages custom-brown"></i>,
                     price: "$150",
                     period: "per 60-minute session",
-                    bgColor: "elegant-button",
+                    bgColor: "bg-custom-olive",
                     features: [
                         "One-on-one guidance",
                         "Customized action plans",
                         "Follow-up resources"
                     ],
-                    fullDescription: "One-on-one personalized guidance sessions designed to address your family's unique challenges and goals. Each session is tailored to your specific situation, providing you with practical strategies and tools you can implement immediately.",
+                    fullDescription: "One-on-one personalized guidance sessions designed to address your unique challenges and goals. Each session is tailored to your specific situation, providing you with practical strategies and tools you can implement immediately.",
                     whatToExpect: [
-                        "Comprehensive family assessment to understand your current dynamics",
-                        "Personalized action plan with specific, achievable goals",
-                        "Evidence-based parenting strategies tailored to your children's ages and personalities",
-                        "Ongoing support and accountability between sessions",
-                        "Access to exclusive resources and tools"
+                        "Strategic planning and business development",
+                        "Branding and marketing strategy",
+                        "Operations and process improvement",
+                        "Organizational structure and team development",
+                        "Leadership coaching and professional growth",
+                        "Financial planning and budgeting guidance",
+                        "Community engagement and partnership building",
+                        "Event planning and program coordination",
+                        "Grant and proposal writing support",
+                        "Nonprofit development and strategic alignment"
                     ],
                     idealFor: [
-                        "Parents seeking individualized attention and customized solutions",
-                        "Families dealing with specific behavioral challenges",
-                        "Parents wanting to improve communication with their children",
-                        "Those preparing for major family transitions (new baby, divorce, etc.)"
+                        "Entrepreneurs and small business owners looking to refine their strategy, scale their operations, or strengthen their brand presence",
+                        "Nonprofit leaders and community organizers seeking guidance on program development, fundraising, and sustainable growth",
+                        "Individuals facing specific challenges such as team dynamics, financial planning, or mission alignment who need tailored, actionable supportParents wanting to improve communication with their children",
                     ],
                     sessionStructure: "Each 60-minute session includes assessment, strategy development, skill practice, and action planning. Sessions can be conducted virtually or in-person based on your preference.",
                     buttonColor: "custom-red",
                     learnMoreColor: "text-custom-red"
                 },
                 {
-                    id: 'membership',
-                    title: "Community Membership",
-                    icon: "👥",
+                    id: 'mentorship',
+                    title: "PWP Commnuity Mentorship",
+                    icon: <i class="fi fi-sr-users custom-brown"></i>,
                     price: "$49",
                     period: "per month",
-                    bgColor: "bg-custom-gold",
-                    badge: "Most Popular",
+                    bgColor: "bg-custom-olive",
+                    // badge: "Most Popular",
                     borderColor: "border-2 border-custom-gold",
                     features: [
                         "All workshops included",
@@ -44,28 +48,28 @@ export const serviceData = [
                         "Resource library",
                         "Monthly group calls"
                     ],
-                    fullDescription: "Join our thriving community of parents committed to intentional, purposeful parenting. Membership provides access to all our workshops, support groups, and resources, creating a comprehensive support system for your family's journey.",
-                    whatToExpected: [
-                        "Unlimited access to all monthly workshops and educational sessions",
-                        "Weekly support group meetings with experienced facilitators",
-                        "Extensive digital resource library with guides, videos, and tools",
-                        "Monthly group coaching calls with Sarah Johnson",
-                        "Private online community forum for 24/7 peer support"
+                    fullDescription: "Connect with experienced mentors who understand your journey and are committed to helping you reach your full potential. Our mentorship program pairs you with guides who offer wisdom, accountability, and encouragement as you navigate personal, professional, or educational growth.",
+                    whatToExpect: [
+                        "One-on-one mentorship matching based on your goals and needs",
+                        "Regular check-ins and guidance sessions with your mentor",
+                        "Access to mentorship workshops and skill-building events",
+                        "Community networking opportunities with other mentees and mentors",
+                        "Resource sharing and personalized development plans"
                     ],
                     idealFor: [
-                        "Parents who thrive in community settings and group learning",
-                        "Families wanting ongoing support and continuous learning",
-                        "Those seeking to build lasting friendships with like-minded parents",
-                        "Parents who prefer a more affordable, comprehensive approach"
+                        "Young professionals seeking career guidance and leadership development",
+                        "Students navigating academic decisions and future planning",
+                        "Individuals pursuing entrepreneurship or creative ventures",
+                        "Anyone looking for accountability, wisdom, and connection during times of transition"
                     ],
-                    memberBenefits: "Members save over $200 per month compared to individual workshop fees, plus gain access to exclusive content and priority booking for special events.",
+                    programBenefits: "Mentees gain clarity, confidence, and community support while building meaningful relationships that often last a lifetime.",
                     buttonColor: "custom-gold",
                     learnMoreColor: "text-custom-gold"
                 },
                 {
                     id: 'advocacy',
-                    title: "Family Advocate Services",
-                    icon: "🗣️",
+                    title: "Commuity Advocate Services",
+                    icon: <i class="fi fi-ss-leader-speech custom-brown"></i>,
                     price: "$200",
                     period: "per case/month",
                     bgColor: "bg-custom-olive",
@@ -75,17 +79,17 @@ export const serviceData = [
                         "Resource navigation",
                         "Crisis intervention"
                     ],
-                    fullDescription: "Navigate complex systems and advocate for your family's needs with professional support. Our advocacy services help you communicate effectively with schools, healthcare providers, and other institutions to ensure your family receives appropriate support and services.",
+                    fullDescription: "Navigate complex systems and advocate for your family's needs with professional support. Our advocacy services help you communicate effectively with schools, community leaders, and other institutions to ensure your family receives appropriate support and services.",
                     whatToExpect: [
                         "School system advocacy including IEP and 504 plan support",
-                        "Healthcare navigation and medical appointment advocacy",
+                        "Financial literacy and money management education",
                         "Legal system support and resource coordination",
                         "Crisis intervention and emergency family support",
-                        "Ongoing case management and follow-up services"
+                        "Cultural enrichment activities and community outreach"
                     ],
                     idealFor: [
-                        "Families with children who have special needs or learning differences",
-                        "Parents navigating divorce, custody, or legal challenges",
+                        "Parents who value both practical life skills and cultural enrichment for their children",
+                        "Parents looking for support that includes educational, social, and financial empowerment",
                         "Families dealing with school disciplinary issues or academic concerns",
                         "Those needing support accessing community resources and services"
                     ],

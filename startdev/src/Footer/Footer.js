@@ -4,6 +4,10 @@ import { Link } from 'react-router-dom';
 
 
 function Footer() {
+
+    const currentYear = new Date().getFullYear();
+
+
     return (
       <footer className="bg-custom-brown custom-gold relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-custom-brown via-custom-brown to-gray-900 opacity-90"></div>
@@ -71,7 +75,8 @@ function Footer() {
 
             <div className="section-divider mt-12 mb-6"></div>
             <div className="text-center">
-                <p className="text-gray-400 font-light text-sm">&copy; 2024 Parenting with a Purpose. All rights reserved.</p>
+                <p className="text-gray-400 font-light text-sm">© {currentYear} Beyond Sight Solutions. All rights reserved.</p>
+                <p className="text-gray-400 font-light text-xs">Uicons by <a href="https://www.flaticon.com/uicons">Flaticon</a></p>
             </div>
         </div>
       </footer>

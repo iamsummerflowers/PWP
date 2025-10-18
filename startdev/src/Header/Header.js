@@ -14,7 +14,7 @@ function Header({ currentPage, setCurrentPage }) {
                 <div className="w-1/12 flex items-center">
                     <button 
                         onClick={() => setCurrentPage('home')}
-                        className="text-lg font-serif font-semibold hover:opacity-80 elegant-transition tracking-wide flex"
+                        className="text-black text-lg font-serif font-semibold hover:opacity-80 elegant-transition tracking-wide flex"
                     >
                         PWP
                     </button>
@@ -22,7 +22,7 @@ function Header({ currentPage, setCurrentPage }) {
                 
                 {/* Desktop Menu */}
                 <div className="hidden md:block">
-                    <div className="mx-0 flex justify-self-end items-baseline space-x-2 w-6/12">
+                    <div className="mx-0 flex justify-self-end items-baseline space-x-2 w-8/12">
                         <button
                             onClick={() => setCurrentPage('home')}
                             className={`px-0 py-3 rounded-lg text-sm font-medium elegant-transition ${
@@ -41,7 +41,7 @@ function Header({ currentPage, setCurrentPage }) {
                                     : 'custom-red hover:text-black'
                             }`}
                         >
-                            About
+                            About PWP
                         </button>
                         <button
                             onClick={() => setCurrentPage('village-sunday')}
@@ -72,7 +72,7 @@ function Header({ currentPage, setCurrentPage }) {
             {/* Mobile Menu */}
             {isMenuOpen && (
                 <div className="md:hidden">
-                    <div className="px-2 pt-2 pb-6 space-y-2 sm:px-3 bg-white/95 backdrop-blur elegant-border rounded-b-lg">
+                    <div className="px-2 pt-2 pb-6 space-y-2 sm:px-3">
                         <button
                             onClick={() => {
                                 setCurrentPage('home');
@@ -97,7 +97,7 @@ function Header({ currentPage, setCurrentPage }) {
                                     : 'text-gray-700 hover:bg-gray-50 custom-red'
                             }`}
                         >
-                            About
+                            About PWP
                         </button>
                         <button
                             onClick={() => {
@@ -110,7 +110,7 @@ function Header({ currentPage, setCurrentPage }) {
                                     : 'text-gray-700 hover:bg-gray-50 custom-red'
                             }`}
                         >
-                            Village Sunday
+                            Community Efforts
                         </button>
                     </div>
                 </div>

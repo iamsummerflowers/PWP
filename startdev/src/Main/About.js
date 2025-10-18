@@ -33,11 +33,11 @@ function About() {
                     </div>
                 </div>
                 <div className="flex justify-center">
-                    <div className="glass-effect2 p-12 rounded-3xl elegant-shadow">
+                    <div className="w-fit flex items-center justify-center glass-effect2 p-4 rounded-3xl elegant-shadow">
                         <img 
                             src={pwp} 
                             alt="PWP logo" 
-                            className="w-full max-w-md rounded-2xl elegant-shadow"
+                            className="w-full rounded-2xl elegant-shadow"
                             onerror="this.src=''; this.alt='Image failed to load'; this.style.display='none';"
                         />
                     </div>
