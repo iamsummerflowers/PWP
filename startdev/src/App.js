@@ -18,11 +18,11 @@ function App() {
         <Header currentPage={currentPage} setCurrentPage={setCurrentPage} />
         {/* <Main /> */}
         <main className="flex-grow">
-            {currentPage === 'home' && <Home />}
+            {currentPage === 'home' && <Home currentPage={currentPage} setCurrentPage={setCurrentPage}/>}
             {currentPage === 'about' && <About />}
-            {currentPage === 'village-sunday' && <Community />}
+            {currentPage === 'community-effort' && <Community />}
         </main>
-        <Footer />
+        <Footer currentPage={currentPage} setCurrentPage={setCurrentPage}/>
     </div>
 );
 }

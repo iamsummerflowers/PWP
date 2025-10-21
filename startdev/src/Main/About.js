@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css';
-import colette from '../assets/colette.jpg';
+import colette from '../assets/founder2.png';
 import pwp from '../assets/PWP.jpg';
 
 
@@ -19,16 +19,18 @@ function About() {
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-20">
                 <div>
-                    <h2 className="text-4xl font-serif font-bold mb-8 text-gray-900">Our Story</h2>
+                    <h2 className="text-4xl font-serif font-bold mb-8 text-gray-900">Our Story – Parenting with a Purpose</h2>
                     <div className="space-y-6 text-lg text-gray-600 leading-relaxed font-light">
                         <p>
-                            Parenting with a Purpose was founded by a group of parents, educators, and child development experts who recognized the need for comprehensive support in raising resilient, compassionate children.
+                            Parenting with a Purpose started with a simple belief: raising children shouldn’t feel like a journey you take alone, and it shouldn't be one-size-fits-all. 
+                            As parents ourselves, we faced the same questions, challenges, and dreams that so many families do. We wanted more than survival; we wanted purpose.
                         </p>
                         <p>
-                            We understand that parenting is one of life's greatest challenges and most rewarding experiences. That's why we've created a platform that combines research-based strategies with real-world wisdom from experienced parents.
+                            That’s why we created a space where parents could feel seen, supported, and empowered, not just in raising their kids, but in growing alongside them. Through education, we equip families with tools that make a real difference. Through community, we remind each other that we’re not alone. 
+                            And through entrepreneurship, we inspire parents and children alike to think creatively, build boldly, and lead with intention.
                         </p>
                         <p>
-                            Our approach focuses on building strong family foundations that will benefit not just your immediate family, but generations to come.
+                            This is more than parenting, it’s legacy-building. Together, we’re raising the next generation with purpose, power, and passion.
                         </p>
                     </div>
                 </div>
@@ -46,11 +48,11 @@ function About() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-20">
                 <div className="text-center p-8 glass-effect rounded-2xl elegant-card hover-lift elegant-transition">
-                    <div className="text-4xl font-serif font-bold custom-red mb-3">10,000+</div>
+                    <div className="text-4xl font-serif font-bold custom-brown mb-3">100+</div>
                     <p className="text-gray-900 font-semibold">Families Supported</p>
                 </div>
                 <div className="text-center p-8 glass-effect rounded-2xl elegant-card hover-lift elegant-transition">
-                    <div className="text-4xl font-serif font-bold custom-gold mb-3">500+</div>
+                    <div className="text-4xl font-serif font-bold custom-olive mb-3">150+</div>
                     <p className="text-gray-900 font-semibold">Expert Resources</p>
                 </div>
                 <div className="text-center p-8 glass-effect rounded-2xl elegant-card hover-lift elegant-transition">
@@ -58,7 +60,7 @@ function About() {
                     <p className="text-gray-900 font-semibold">Certified Mentors</p>
                 </div>
                 <div className="text-center p-8 glass-effect rounded-2xl elegant-card hover-lift elegant-transition">
-                    <div className="text-4xl font-serif font-bold custom-brown mb-3">15</div>
+                    <div className="text-4xl font-serif font-bold custom-brown mb-3">25</div>
                     <p className="text-gray-900 font-semibold">Years Experience</p>
                 </div>
             </div>
@@ -67,7 +69,7 @@ function About() {
                 <h2 className="text-4xl font-serif font-bold text-center mb-16 text-gray-900">Meet Our Founder</h2>
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
                     <div className="flex justify-center">
-                        <div className="w-fit glass-effect2 p-8 rounded-3xl elegant-shadow">
+                        <div className="w-fit glass-effect3x p-4 rounded-3xl elegant-shadowx">
                             {/* Founder Photo */}
                             <img 
                                 src={colette} 
@@ -76,8 +78,8 @@ function About() {
                                 onerror="this.src=''; this.alt='Image failed to load'; this.style.display='none';"
                             />
                             <div className="text-center mt-6">
-                                <h3 className="text-white text-2xl font-serif font-bold mb-2">Colette Choates</h3>
-                                <p className="text-white font-semibold">Founder & Lead Family Coach</p>
+                                <h3 className="text-black text-2xl font-serif font-bold mb-2">Colette Choates</h3>
+                                <p className="text-black font-semibold">Founder, Entrepreneur, & Community Advocate</p>
                             </div>
                         </div>
                     </div>
@@ -98,38 +100,35 @@ function About() {
                             </p>
                         </div>
                         
-                        <div className="mt-10 space-y-4">
-                            <div className="flex items-center space-x-4">
+                        {/* <div className="mt-10 space-y-4"> */}
+                            {/* <div className="flex items-center space-x-4">
                                 <div className="w-12 h-12 bg-custom-gold rounded-xl flex items-center justify-center">
-                                    {/* <span className="text-white font-bold text-center">👨‍👩‍👧‍👦</span> */}
                                     <i class="fi fi-sr-family text-center text-xl text-black"></i>
                                 </div>
                                 <div>
                                     <h4 className="font-semibold text-gray-900">Mother of Six</h4>
                                     <p className="text-gray-600 font-light">4 Girls & 2 Boys</p>
                                 </div>
-                            </div>
-                            <div className="flex items-center space-x-4">
+                            </div> */}
+                            {/* <div className="flex items-center space-x-4">
                                 <div className="w-12 h-12 bg-custom-olive rounded-xl flex items-center justify-center">
-                                    {/* <span className="text-white font-bold text-center">🏆</span> */}
                                     <i class="fi fi-ss-award text-center text-xl text-white"></i>
                                 </div>
                                 <div>
                                     <h4 className="font-semibold text-gray-900">Award-Winning Coach</h4>
                                     <p className="text-gray-600 font-light">2023 Family Coach of the Year</p>
                                 </div>
-                            </div>
-                            <div className="flex items-center space-x-4">
+                            </div> */}
+                            {/* <div className="flex items-center space-x-4">
                                 <div className="w-12 h-12 bg-custom-brown rounded-xl flex items-center justify-center">
-                                    {/* <span className="text-white font-bold text-center">📖</span> */}
                                     <i class="fi fi-sr-user-writer text-center text-xl text-white"></i>
                                 </div>
                                 <div>
                                     <h4 className="font-semibold text-gray-900">Published Author</h4>
                                     <p className="text-gray-600 font-light">"Raising Purpose-Driven Children"</p>
                                 </div>
-                            </div>
-                        </div>
+                            </div> */}
+                        {/* </div> */}
                     </div>
                 </div>
             </div>

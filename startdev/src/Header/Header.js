@@ -2,6 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import './Header.css';
 import { Link } from 'react-router-dom';
+import pwp from "../assets/PWP.jpg";
 
 function Header({ currentPage, setCurrentPage }) {
 
@@ -11,15 +12,22 @@ function Header({ currentPage, setCurrentPage }) {
     <nav className="bg-white/95 backdrop-blur elegant-shadow sticky top-0 z-50 elegant-border">
         <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
             <div className="flex justify-between items-center h-20">
-                <div className="w-1/12 flex items-center">
+                {/* <div className="w-1/12 flex items-center">
                     <button 
                         onClick={() => setCurrentPage('home')}
                         className="text-black text-lg font-serif font-semibold hover:opacity-80 elegant-transition tracking-wide flex"
                     >
                         PWP
                     </button>
+                </div> */}
+                <div className="w-1/12 flex items-center">
+                    <button 
+                        onClick={() => setCurrentPage('home')}
+                        className="w-12 h-12 bg-none rounded-lg flex items-center justify-center hover:opacity-80 elegant-transition"
+                    >
+                        <img className="scale-100 rounded-3xl" src={pwp}></img>
+                    </button>
                 </div>
-                
                 {/* Desktop Menu */}
                 <div className="hidden md:block">
                     <div className="mx-0 flex justify-self-end items-baseline space-x-2 w-8/12">
@@ -44,9 +52,9 @@ function Header({ currentPage, setCurrentPage }) {
                             About PWP
                         </button>
                         <button
-                            onClick={() => setCurrentPage('village-sunday')}
+                            onClick={() => setCurrentPage('community-effort')}
                             className={`px-0 py-3 rounded-lg text-sm font-medium elegant-transition ${
-                                currentPage === 'village-sunday' 
+                                currentPage === 'community-effort' 
                                     ? 'elegant-button text-white' 
                                     : 'custom-red hover:text-black'
                             }`}

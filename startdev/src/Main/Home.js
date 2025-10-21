@@ -2,7 +2,7 @@ import React from 'react';
 import './Home.css';
 import family from '../assets/family.jpg';
 
-function Home({ id, header, bodyItems }) {
+function Home({ setCurrentPage }) {
   return (
     <div className="min-h-full">
         {/* Hero Section */}
@@ -18,10 +18,10 @@ function Home({ id, header, bodyItems }) {
                             Parenting with a Purpose equips and empowers parents with the knowledge,resources, and community support they need to raise resilient, compassionate, and purpose-driven children. We are committed to strengthening families through education, mentorship, and practical tools that foster positive relationships and lasting impact for generations to come.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-6">
-                            <button className="elegant-button text-white px-10 py-4 rounded-lg text-lg font-semibold elegant-transition hover-lift">
+                            <button onClick={() => { setCurrentPage('community-effort'); window.scrollTo({ top: 0, behavior: 'smooth' }); }} className="elegant-button text-white px-10 py-4 rounded-lg text-lg font-semibold elegant-transition hover-lift">
                                 Join Our Community
                             </button>
-                            <button className="glass-effect border-2 border-white/30 text-gray-900 px-10 py-4 rounded-lg text-lg font-semibold elegant-transition hover-lift">
+                            <button onClick={() => { setCurrentPage('about'); window.scrollTo({ top: 0, behavior: 'smooth' }); }} className="glass-effect border-2 border-white/30 text-gray-900 px-10 py-4 rounded-lg text-lg font-semibold elegant-transition hover-lift">
                                 Learn More
                             </button>
                         </div>
@@ -94,10 +94,10 @@ function Home({ id, header, bodyItems }) {
                     Join thousands of parents who are already building stronger, more purposeful families. Start your journey today.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-6 justify-center">
-                    <button className="bg-custom-gold hover:bg-custom-gold custom-brown px-10 py-4 rounded-lg text-lg font-semibold elegant-transition hover-lift elegant-shadow">
+                    <button onClick={() => { setCurrentPage('community-effort'); window.scrollTo({ top: 0, behavior: 'smooth' }); }} className="bg-custom-gold hover:bg-custom-gold custom-brown px-10 py-4 rounded-lg text-lg font-semibold elegant-transition hover-lift elegant-shadow">
                         Get Started Today
                     </button>
-                    <button className="glass-effect border-2 border-white/30 custom-brown hover:bg-white px-10 py-4 rounded-lg text-lg font-semibold elegant-transition hover-lift">
+                    <button onClick={() => { setCurrentPage('about'); window.scrollTo({ top: 0, behavior: 'smooth' }); }} className="glass-effect border-2 border-white/30 custom-brown hover:bg-white px-10 py-4 rounded-lg text-lg font-semibold elegant-transition hover-lift">
                         Learn More
                     </button>
                 </div>

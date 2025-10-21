@@ -1,7 +1,7 @@
 export const serviceData = [
                 {
                     id: 'consulting',
-                    title: "Business Consulting Services",
+                    title: "Consulting Services for Entrepreneurs",
                     icon: <i class="fi fi-sr-messages custom-brown"></i>,
                     price: "$150",
                     period: "per 60-minute session",
@@ -13,21 +13,45 @@ export const serviceData = [
                     ],
                     fullDescription: "One-on-one personalized guidance sessions designed to address your unique challenges and goals. Each session is tailored to your specific situation, providing you with practical strategies and tools you can implement immediately.",
                     whatToExpect: [
-                        "Strategic planning and business development",
-                        "Branding and marketing strategy",
-                        "Operations and process improvement",
-                        "Organizational structure and team development",
-                        "Leadership coaching and professional growth",
-                        "Financial planning and budgeting guidance",
-                        "Community engagement and partnership building",
-                        "Event planning and program coordination",
-                        "Grant and proposal writing support",
-                        "Nonprofit development and strategic alignment"
+                        "Business Strategy & Planning - Tailored business plans, market analysis, and growth strategies for startups and small businesses.",
+                        "Time Management & Productivity Coaching - Techniques to optimize daily workflow and increase efficiency.",
+                        "Brand Development & Marketing Guidance - Support in creating a strong brand identity and effective marketing strategies.",
+                        "Financial Planning & Budgeting - Help with cash flow management, budgeting, and financial forecasting.",
+                        "Work-Life Integration - Coaching to balance entrepreneurial drive with personal life, including family priorities"
                     ],
                     idealFor: [
                         "Entrepreneurs and small business owners looking to refine their strategy, scale their operations, or strengthen their brand presence",
                         "Nonprofit leaders and community organizers seeking guidance on program development, fundraising, and sustainable growth",
                         "Individuals facing specific challenges such as team dynamics, financial planning, or mission alignment who need tailored, actionable supportParents wanting to improve communication with their children",
+                    ],
+                    sessionStructure: "Each 60-minute session includes assessment, strategy development, skill practice, and action planning. Sessions can be conducted virtually or in-person based on your preference.",
+                    buttonColor: "custom-red",
+                    learnMoreColor: "text-custom-red"
+                },
+                {
+                    id: 'consultingP',
+                    title: "Consulting Services for Parents",
+                    icon: <i class="fi fi-sr-messages custom-brown"></i>,
+                    price: "$150",
+                    period: "per 60-minute session",
+                    bgColor: "bg-custom-olive",
+                    features: [
+                        "One-on-one guidance",
+                        "Customized action plans",
+                        "Follow-up resources"
+                    ],
+                    fullDescription: "One-on-one personalized guidance sessions designed to address your unique challenges and goals. Each session is tailored to your specific situation, providing you with practical strategies and tools you can implement immediately.",
+                    whatToExpect: [
+                        "Parenting Strategy Development - Personalized guidance to build effective parenting techniques that promote healthy child development and family harmony.",
+                        "Work-Life Balance Coaching - Helping parents create sustainable routines that balance career demands and family time.",
+                        "Behavioral Support & Conflict Resolution - Strategies to manage challenging child behaviors and improve family communication.",
+                        "Education & Learning Support - Advice on fostering a positive learning environment and choosing appropriate educational resources.",
+                        "Parental Wellness & Self-Care - Encouraging parents to prioritize their mental and physical health for overall family wellbeing."
+                    ],
+                    idealFor: [
+                        "Parents seeking practical strategies to improve communication and strengthen relationships with their children",
+                        "Parents facing behavioral challenges with their children and needing effective conflict resolution techniques",
+                        "Parents prioritizing their own wellness and self-care while managing family responsibilities"
                     ],
                     sessionStructure: "Each 60-minute session includes assessment, strategy development, skill practice, and action planning. Sessions can be conducted virtually or in-person based on your preference.",
                     buttonColor: "custom-red",

@@ -10,50 +10,50 @@ import image8 from "../assets/image8.png";
 export const galleryImages = [
         {
             src: image1,
-            alt: "Families participating in community workshop",
-            title: "Celebrating Black History Month",
-            description: "Celebrating Black History Month"
+            alt: "Young woman speaking on a podium",
+            // title: "Celebrating Black History Month",
+            // description: "Celebrating Black History Month"
         },
         {
             src: image2,
-            alt: "Support group meeting with parents sharing experiences",
-            title: "Support Circle",
-            description: "Weekly parent support group meeting"
+            alt: "Community group taking a picture for an award",
+            // title: "Support Circle",
+            // description: "Weekly parent support group meeting"
         },
         {
             src: image3,
-            alt: "Children participating in youth leadership program",
-            title: "Youth Leaders",
-            description: "Teens developing leadership skills"
+            alt: "Junteenth flyer for 2024",
+            // title: "Youth Leaders",
+            // description: "Teens developing leadership skills"
         },
         {
             src: image4,
-            alt: "Community volunteers distributing resources to families",
-            title: "Resource Distribution",
-            description: "Volunteers helping families in need"
+            alt: "Community members taking pictures for the Assembly Award",
+            // title: "Resource Distribution",
+            // description: "Volunteers helping families in need"
         },
         {
             src: image5,
-            alt: "Family enjoying quality time together outdoors",
-            title: "Family Connection",
-            description: "Building stronger family bonds"
+            alt: "Booth owner of Rose Mary's Gourmet Pies working at a tent",
+            // title: "Family Connection",
+            // description: "Building stronger family bonds"
         },
         {
             src: image6,
-            alt: "Educational workshop with parents learning together",
-            title: "Learning Together",
-            description: "Interactive parenting education session"
+            alt: "Family gathered together at a park for a picture",
+            // title: "Learning Together",
+            // description: "Interactive parenting education session"
         },
         {
             src: image7,
-            alt: "Community event bringing families together",
-            title: "Community Event",
-            description: "Annual family celebration gathering"
+            alt: "Commnity member speaking on a stage at a neighbor hood event",
+            // title: "Community Event",
+            // description: "Annual family celebration gathering"
         },
         {
             src: image8,
-            alt: "One-on-one mentoring session between experienced and new parent",
-            title: "Mentorship",
-            description: "Experienced parent mentoring newcomer"
+            alt: "Community members taking a picture for an award",
+            // title: "Mentorship",
+            // description: "Experienced parent mentoring newcomer"
         }
     ];
