@@ -84,7 +84,7 @@ function About() {
                         </div>
                     </div>
                     <div className="p-4 rounded-md">
-                        <h3 className="text-2xl font-serif font-bold mb-8 text-black">Colette’s Story</h3>
+                        <h3 className="text-2xl font-serif font-bold mb-8 text-black">Our Founder – Colette’s Story</h3>
                         <div className="space-y-6 text-lg text-gray-600 leading-relaxed font-light">
                             <p>
                                 Colette’s journey began with a deep belief in the strength of family and community. 
