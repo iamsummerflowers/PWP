@@ -66,7 +66,7 @@ function About() {
             </div>
 
             <div className="mb-20">
-                <h2 className="text-4xl font-serif font-bold text-center mb-16 text-gray-900">Meet Our Founder</h2>
+                <h2 className="text-4xl font-serif font-bold text-center mb-16 text-gray-900">Meet The Founder</h2>
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
                     <div className="flex justify-center">
                         <div className="w-fit glass-effect3x p-4 rounded-3xl elegant-shadowx">
@@ -84,7 +84,7 @@ function About() {
                         </div>
                     </div>
                     <div className="p-4 rounded-md">
-                        <h3 className="text-2xl font-serif font-bold mb-8 text-black">Meet the Founder: Colette’s Story</h3>
+                        <h3 className="text-2xl font-serif font-bold mb-8 text-black">Colette’s Story</h3>
                         <div className="space-y-6 text-lg text-gray-600 leading-relaxed font-light">
                             <p>
                                 Colette’s journey began with a deep belief in the strength of family and community. 
