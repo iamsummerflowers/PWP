@@ -1,48 +1,57 @@
+import image1 from "../assets/image1.png";
+import image2 from "../assets/image2.png";
+import image3 from "../assets/image3.png";
+import image4 from "../assets/image4.jpeg";
+import image5 from "../assets/image5.png";
+import image6 from "../assets/image6.png";
+import image7 from "../assets/image7.png";
+import image8 from "../assets/image8.png";
+
 export const galleryImages = [
         {
-            src: "https://images.unsplash.com/photo-1511632765486-a01980e01a18?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+            src: image1,
             alt: "Families participating in community workshop",
-            title: "Family Workshop",
-            description: "P..arning positive discipline techniques"
+            title: "Celebrating Black History Month",
+            description: "Celebrating Black History Month"
         },
         {
-            src: "https://images.unsplash.com/photo-1544717297-fa95b6ee9643?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+            src: image2,
             alt: "Support group meeting with parents sharing experiences",
             title: "Support Circle",
             description: "Weekly parent support group meeting"
         },
         {
-            src: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+            src: image3,
             alt: "Children participating in youth leadership program",
             title: "Youth Leaders",
             description: "Teens developing leadership skills"
         },
         {
-            src: "https://images.unsplash.com/photo-1559027615-cd4628902d4a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+            src: image4,
             alt: "Community volunteers distributing resources to families",
             title: "Resource Distribution",
             description: "Volunteers helping families in need"
         },
         {
-            src: "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+            src: image5,
             alt: "Family enjoying quality time together outdoors",
             title: "Family Connection",
             description: "Building stronger family bonds"
         },
         {
-            src: "https://images.unsplash.com/photo-1516627145497-ae4099d4e6ed?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+            src: image6,
             alt: "Educational workshop with parents learning together",
             title: "Learning Together",
             description: "Interactive parenting education session"
         },
         {
-            src: "https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+            src: image7,
             alt: "Community event bringing families together",
             title: "Community Event",
             description: "Annual family celebration gathering"
         },
         {
-            src: "https://images.unsplash.com/photo-1606092195730-5d7b9af1efc5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+            src: image8,
             alt: "One-on-one mentoring session between experienced and new parent",
             title: "Mentorship",
             description: "Experienced parent mentoring newcomer"
