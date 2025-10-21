@@ -67,13 +67,13 @@ function About() {
 
             <div className="mb-20">
                 <h2 className="text-4xl font-serif font-bold text-center mb-16 text-gray-900">Meet Our Founder</h2>
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
                     <div className="flex justify-center">
                         <div className="w-fit glass-effect3x p-4 rounded-3xl elegant-shadowx">
                             {/* Founder Photo */}
                             <img 
                                 src={colette} 
-                                alt="Simple stick figure drawing representing our founder Sarah Johnson" 
+                                alt="picture of Foudner, Collette Choates" 
                                 className="w-80 h-80 rounded-3xl elegant-shadow object-cover"
                                 onerror="this.src=''; this.alt='Image failed to load'; this.style.display='none';"
                             />
@@ -84,19 +84,47 @@ function About() {
                         </div>
                     </div>
                     <div className="p-4 rounded-md">
-                        <h3 className="text-3xl font-serif font-bold mb-8 text-gray-900">My Story & Why I Started This Mission</h3>
+                        <h3 className="text-2xl font-serif font-bold mb-8 text-black">Meet the Founder: Colette’s Story</h3>
                         <div className="space-y-6 text-lg text-gray-600 leading-relaxed font-light">
                             <p>
-                                My journey into family coaching began during my own struggles as a young mother. When my eldest daughter was going through a particularly challenging phase at age 8, I felt overwhelmed and unprepared despite having a background in education.
+                                Colette’s journey began with a deep belief in the strength of family and community. 
+                                As a mother, mentor, and lifelong advocate, she saw that when families are supported—through guidance, education, and opportunity—they don’t just overcome challenges; they thrive.
                             </p>
                             <p>
-                                Traditional parenting advice wasn't working for our family's unique dynamics. I found myself searching for evidence-based strategies that honored both my child's individual needs and our family values. This search led me to pursue advanced training in family systems therapy and positive discipline.
+                                Drawing from her own experiences growing up in a resilient but underserved community, Colette understood the gaps many families face: the lack of mentorship, limited access to resources, and the absence of economic empowerment.
+                                But she also saw something powerful—what happens when just one person believes in you, when one door opens, or when one opportunity changes everything.
                             </p>
                             <p>
-                                After transforming my own family relationships and seeing the profound impact on my three children, I knew I had to share these tools with other parents. I founded Parenting with a Purpose because I believe every family deserves access to the support and strategies that can create lasting positive change.
+                                That belief inspired her to launch this organization with a bold vision: to connect families through mentoring, advocacy, education, and entrepreneurship.
                             </p>
-                            <p className="text-custom-red font-medium italic">
-                                "My mission is simple: equip and empower parents with the knowledge,resources, and community support they need to raise resilient, compassionate, and purpose-driven children."
+                            <ul className="list-disc text-black pl-6 mb-4 space-y-2">
+                                <li>
+                                <span className="font-bold">Mentoring</span> provides safe, supportive relationships 
+                                that guide youth and adults through life's challenges and milestones.
+                                </li>
+                                <li>
+                                <span className="font-bold">Advocacy</span> amplifies the voices of families, pushing 
+                                for policies and practices that promote equity and access.
+                                </li>
+                                <li>
+                                <span className="font-bold">Education</span> equips families with essential life skills, 
+                                parenting tools, and knowledge to grow and lead.
+                                </li>
+                                <li>
+                                <span className="font-bold ">Entrepreneurship</span> opens doors to economic freedom, 
+                                turning passions into income and ideas into legacies.
+                                </li>
+                            </ul>
+                            
+                            <p className="mb-4">
+                                What started as a small, community-based effort has grown into a thriving network of 
+                                families, mentors, and leaders building a better future—together.
+                            </p>
+                            
+                            <p>
+                                Colette continues to lead with compassion, determination, and a commitment to lifting 
+                                others as she climbs. Her vision is simple yet powerful: <span className="font-bold text-black">when 
+                                we invest in families, we transform communities</span>.
                             </p>
                         </div>
                         
