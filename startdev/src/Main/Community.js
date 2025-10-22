@@ -16,7 +16,7 @@ function Community() {
 
     const handleContactFounder = () => {
         // Open Calendly in new tab
-        window.open('https://calendly.com/sarahjohnson-parentingwithpurpose', '_blank', 'noopener,noreferrer');
+        window.open('https://calendly.com/choates-pwp?lid=4d5sslim9f42&utm_medium=email&utm_source=braze&utm_campaign=&utm_content=user_url_text', '_blank', 'noopener,noreferrer');
     };
 
     const handleDonationSubmit = (e) => {
