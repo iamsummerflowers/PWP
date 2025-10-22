@@ -109,7 +109,7 @@ function Header({ currentPage, setCurrentPage }) {
                         </button>
                         <button
                             onClick={() => {
-                                setCurrentPage('village-sunday');
+                                setCurrentPage('community-effort');
                                 setIsMenuOpen(false);
                             }}
                             className={`block px-6 py-3 rounded-lg text-base font-medium w-full text-left elegant-transition ${
