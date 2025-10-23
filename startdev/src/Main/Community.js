@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import './Community.css';
 import { galleryImages } from '../Data/gallerydata';
 import { serviceData } from '../Data/servicedata';
+import Brittany from '../assets/brittany.jpeg';
+import Grapvine from '../assets/grapevine.jpeg';
 
 
 function Community() {
@@ -176,6 +178,77 @@ function Community() {
                     </div>
                 </div>
             </div>
+
+
+                        {/* Scholarship Winners Section */}
+                        <div className="mb-24">
+                            <h2 className="text-4xl font-serif font-bold text-center my-16 text-gray-900">Scholarship Winners</h2>
+                            <p className="text-xl text-gray-600 text-center mb-12 max-w-4xl mx-auto leading-relaxed font-light">
+                                Celebrating the achievements of outstanding students who embody our values of purposeful living and community leadership.
+                            </p>
+                            
+                            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 mb-16 ">
+                                <div className="glass-effect rounded-3xl overflow-hidden elegant-shadow hover-lift elegant-transition h-fit">
+                                    <div className="aspect-w-4 aspect-h-3">
+                                        <img 
+                                            src={Brittany}
+                                            alt="Marcus Thompson, 2024 Leadership Excellence Scholarship winner"
+                                            className="w-full h-64 object-cover object-center"
+                                            onerror="this.src=''; this.alt='Image failed to load'; this.style.display='none';"
+                                        />
+                                    </div>
+                                    <div className="p-8">
+                                        <h3 className="text-2xl font-serif font-bold text-gray-900 mb-3">Brittany Leigh, PWP Ambassador</h3>
+                                        {/* <div className="bg-custom-gold/20 text-custom-gold px-3 py-1 rounded-full text-sm font-semibold inline-block">
+                                            PWP Ambassador
+                                        </div> */}
+                                        <p className="my-4 text-gray-600 leading-relaxed font-light">
+                                            Brittany is a driven and creative 17-year-old with a strong passion for beauty, fashion and entrepreneurship. Since 2020, she has been exercising her skill to create hair and nail designs, known for her unique concepts and artistic flair. Brittany enjoys creating standout looks and bringing original ideas to life. 
+                                        </p>
+                                        <p className="my-4 text-gray-600 leading-relaxed font-light">
+                                            In addition to her creative talents, she is well-rounded and active having played varsity flag football with the I9 Texans senior girls, earned a yellow belt in kickboxing and gained valuable experience through her love for babysitting. 
+                                        </p>
+                                        <p className="my-4 text-gray-600 leading-relaxed font-light">
+                                            Her future goals include attending an HBCU to study Business and Entrepreneurship, with plans to later pursue a career in real estate. With a strong work ethic, creative vision and leadership mindset, she is preparing to build a bright and impactful future.                                         </p>
+                                    </div>
+                                </div>
+
+                                <div className="glass-effect rounded-3xl overflow-hidden elegant-shadow hover-lift elegant-transition h-fit">
+                                    <div className="aspect-w-4 aspect-h-3">
+                                        <img 
+                                            src={Grapvine}
+                                            alt="Sofia Rodriguez, 2024 Academic Achievement Scholarship winner"
+                                            className="w-full h-64 object-cover object-top"
+                                            onerror="this.src=''; this.alt='Image failed to load'; this.style.display='none';"
+                                        />
+                                    </div>
+                                    <div className="p-8">
+                                        <h3 className="text-2xl font-serif font-bold text-gray-900 mb-3">Milan Page, Scholarship Recipient</h3>
+                                        {/* <div className="bg-custom-olive/20 text-custom-olive px-3 py-1 rounded-full text-sm font-semibold mb-4 inline-block">
+                                            2024 Academic Achievement Award
+                                        </div> */}
+                                        <p className="text-gray-600 leading-relaxed font-light">
+                                            Grapevine's generous donations enabled our organization to bestow several scholarships this year. Milan Page, a recipient, was awarded a $500 micro-scholarship to attend Texas Southern University for her essay on overcoming resistance. Kudos to Milan; we look forward to seeing her continued growth and success.
+                                        </p>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+
+                            {/* <div className="text-center">
+                                <div className="glass-effect p-8 rounded-3xl elegant-shadow max-w-4xl mx-auto">
+                                    <h3 className="text-3xl font-serif font-bold text-gray-900 mb-4">Apply for Our 2025 Scholarships</h3>
+                                    <p className="text-lg text-gray-600 mb-6 leading-relaxed font-light">
+                                        We award $50,000 annually in scholarships to students who demonstrate leadership, academic excellence, and commitment to strengthening their communities.
+                                    </p>
+                                    <button className="elegant-button text-white px-10 py-4 rounded-xl text-lg font-semibold elegant-transition hover-lift elegant-shadow">
+                                        Learn About Scholarships
+                                    </button>
+                                </div>
+                            </div> */}
+                        </div>
 
 
             {/* Community Gallery Section */}

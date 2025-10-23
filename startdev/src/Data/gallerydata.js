@@ -1,59 +1,83 @@
-import image1 from "../assets/image1.png";
-import image2 from "../assets/image2.png";
-import image3 from "../assets/image3.png";
-import image4 from "../assets/image4.jpeg";
-import image5 from "../assets/image5.png";
-import image6 from "../assets/image6.png";
-import image7 from "../assets/image7.png";
-import image8 from "../assets/image8.png";
+import image1 from "../assets/brittany.jpeg";
+import image2 from "../assets/grapevine.jpeg";
+import image3 from "../assets/kayla.png";
+import image4 from "../assets/fivepose.jpeg";
+import image5 from "../assets/threeawards.png";
+import image6 from "../assets/ninepose.png";
+import image7 from "../assets/juneteenth.png";
+import image8 from "../assets/podium.png";
+import image9 from "../assets/circles.jpeg";
+import image10 from "../assets/booth.jpeg";
+import image11 from "../assets/communitynight.jpeg";
+
+
+
 
 export const galleryImages = [
         {
-            src: image1,
+            src: image4,
             alt: "Young woman speaking on a podium",
-            // title: "Celebrating Black History Month",
-            // description: "Celebrating Black History Month"
+            // title: "Brittany Leigh, PWP Ambassador",
+            // description: "Brittany is a driven and creative 17-year-old with a strong passion for beauty, fashion and entrepreneurship. Since 2020, she has been exercising her skill to create hair and nail designs, known for her unique concepts and artistic flair. Brittany enjoys creating standout looks and bringing original ideas to life. "
         },
         {
             src: image2,
-            alt: "Community group taking a picture for an award",
-            // title: "Support Circle",
+            alt: "Grapevine Award",
+            // title: "2",
             // description: "Weekly parent support group meeting"
         },
         {
             src: image3,
             alt: "Junteenth flyer for 2024",
-            // title: "Youth Leaders",
+            // title: "3",
             // description: "Teens developing leadership skills"
         },
         {
-            src: image4,
+            src: image1,
             alt: "Community members taking pictures for the Assembly Award",
-            // title: "Resource Distribution",
+            // title: "4",
             // description: "Volunteers helping families in need"
         },
         {
             src: image5,
             alt: "Booth owner of Rose Mary's Gourmet Pies working at a tent",
-            // title: "Family Connection",
+            // title: "5",
             // description: "Building stronger family bonds"
         },
         {
             src: image6,
-            alt: "Family gathered together at a park for a picture",
-            // title: "Learning Together",
+            alt: "Community members taking a picture for an award",
+            // title: "6",
             // description: "Interactive parenting education session"
         },
         {
             src: image7,
             alt: "Commnity member speaking on a stage at a neighbor hood event",
-            // title: "Community Event",
+            // title: "7",
             // description: "Annual family celebration gathering"
         },
         {
             src: image8,
-            alt: "Community members taking a picture for an award",
-            // title: "Mentorship",
+            alt: "Young woman speaking on a podium",
+            // title: "8",
+            // description: "Experienced parent mentoring newcomer"
+        },
+        {
+            src: image9,
+            alt: "Flyer with speakers showcased",
+            // title: "9",
+            // description: "Experienced parent mentoring newcomer"
+        },
+            {
+            src: image10,
+            alt: "Woman at a booth",
+            // title: "10",
+            // description: "Experienced parent mentoring newcomer"
+        },
+                {
+            src: image11,
+            alt: "Flyer showcasing a community event",
+            // title: "11",
             // description: "Experienced parent mentoring newcomer"
         }
     ];

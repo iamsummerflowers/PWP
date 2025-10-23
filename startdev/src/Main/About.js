@@ -69,7 +69,7 @@ function About() {
                 <h2 className="text-4xl font-serif font-bold text-center mb-16 text-gray-900">Meet The Founder</h2>
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
                     <div className="flex justify-center">
-                        <div className="w-fit glass-effect3x p-4 rounded-3xl elegant-shadowx">
+                        <div className="w-fit glass-effect3x p-4 rounded-3xl elegant-shadowx place-items-center">
                             {/* Founder Photo */}
                             <img 
                                 src={colette} 
@@ -80,6 +80,35 @@ function About() {
                             <div className="text-center mt-6">
                                 <h3 className="text-black text-2xl font-serif font-bold mb-2">Colette Choates</h3>
                                 <p className="text-black font-semibold">Founder, Entrepreneur, & Community Advocate</p>
+                            </div>
+                            <div className="mt-10 space-y-4">
+                                <div className="flex items-start space-x-4">
+                                    <div className="w-12 h-12 bg-custom-gold rounded-xl flex items-center justify-center">
+                                        <i class="fi fi-sr-user-writer text-center text-xl custom-brown pt-1"></i>
+                                    </div>
+                                    <div>
+                                        <h4 className="font-semibold text-gray-900">Credentials</h4>
+                                        <p className="text-gray-600 font-light w-60">Board Member Sunnyhills | Grapevine leader | Member Alpha Kappa Alpha | COO | My Roots Are Rich</p>
+                                    </div>
+                                </div>
+                                <div className="flex items-start space-x-4">
+                                    <div className="w-12 h-12 bg-custom-olive rounded-xl flex items-center justify-center">
+                                        <i class="fi fi-ss-graduation-cap text-center text-2xl pt-1 custom-brown"></i>
+                                    </div>
+                                    <div>
+                                        <h4 className="font-semibold text-gray-900">Education</h4>
+                                        <p className="text-gray-600 font-light">Southern University – Baton Rouge, LA</p>
+                                    </div>
+                                </div>
+                                <div className="flex items-start space-x-4">
+                                    <div className="w-12 h-12 bg-custom-brown rounded-xl flex items-center justify-center">
+                                        <i class="fi fi-sr-family text-center text-xl custom-olive pt-1"></i>
+                                    </div>
+                                    <div>
+                                        <h4 className="font-semibold text-gray-900">Happily married 28 years</h4>
+                                        <p className="text-gray-600 font-light">Mother of Six</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -128,35 +157,7 @@ function About() {
                             </p>
                         </div>
                         
-                        {/* <div className="mt-10 space-y-4"> */}
-                            {/* <div className="flex items-center space-x-4">
-                                <div className="w-12 h-12 bg-custom-gold rounded-xl flex items-center justify-center">
-                                    <i class="fi fi-sr-family text-center text-xl text-black"></i>
-                                </div>
-                                <div>
-                                    <h4 className="font-semibold text-gray-900">Mother of Six</h4>
-                                    <p className="text-gray-600 font-light">4 Girls & 2 Boys</p>
-                                </div>
-                            </div> */}
-                            {/* <div className="flex items-center space-x-4">
-                                <div className="w-12 h-12 bg-custom-olive rounded-xl flex items-center justify-center">
-                                    <i class="fi fi-ss-award text-center text-xl text-white"></i>
-                                </div>
-                                <div>
-                                    <h4 className="font-semibold text-gray-900">Award-Winning Coach</h4>
-                                    <p className="text-gray-600 font-light">2023 Family Coach of the Year</p>
-                                </div>
-                            </div> */}
-                            {/* <div className="flex items-center space-x-4">
-                                <div className="w-12 h-12 bg-custom-brown rounded-xl flex items-center justify-center">
-                                    <i class="fi fi-sr-user-writer text-center text-xl text-white"></i>
-                                </div>
-                                <div>
-                                    <h4 className="font-semibold text-gray-900">Published Author</h4>
-                                    <p className="text-gray-600 font-light">"Raising Purpose-Driven Children"</p>
-                                </div>
-                            </div> */}
-                        {/* </div> */}
+
                     </div>
                 </div>
             </div>
