@@ -40,9 +40,9 @@ export const galleryImages = [
         // },
         {
             src: image5,
-            alt: "REMOVE",
-            title: "REMOVE",
-            // description: "Building stronger family bonds"
+            alt: "Milpitas Flag Raising Ceremony",
+            title: "Milpitas Flag Raising Ceremony",
+            description: "February 2024"
         },
         {
             src: image4,
@@ -52,9 +52,9 @@ export const galleryImages = [
         },
         {
             src: image7,
-            alt: "Milpitas Flag Raising Ceremony",
-            title: "Milpitas Flag Raising Ceremony",
-            description: "February 2025"
+            alt: "Milpitas Juneteenth 2024",
+            title: "Milpitas Juneteenth 2024",
+            description: "2024"
         },
         {
             src: image8,
@@ -70,11 +70,11 @@ export const galleryImages = [
         },
             {
             src: image10,
-            alt: "Our Founder on a Back Black Speaking Panel",
-            title: "Our Founder on a Back Black Speaking Panel",
-            // description: "Experienced parent mentoring newcomer"
+            alt: "Community Outreach",
+            title: "Community Outreach for MUSD",
+            description: "2025"
         },
-                {
+        {
             src: image11,
             alt: "Community Night wit MUSD",
             title: "Community Night wit MUSD",
