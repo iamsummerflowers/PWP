@@ -243,7 +243,7 @@ function Community() {
                                         />
                                     </div>
                                     <div className="p-8">
-                                        <h3 className="text-2xl font-serif font-bold text-gray-900 mb-3">Kemia Bridgewater, Scholarship Recipient</h3>
+                                        <h3 className="text-2xl font-serif font-bold text-gray-900 mb-3">Kemia Bridgewater, Entrepreneur</h3>
                                         {/* <div className="bg-custom-olive/20 text-custom-olive px-3 py-1 rounded-full text-sm font-semibold mb-4 inline-block">
                                             2024 Academic Achievement Award
                                         </div> */}
