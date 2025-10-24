@@ -2,8 +2,9 @@ import React, { useState } from 'react';
 import './Community.css';
 import { galleryImages } from '../Data/gallerydata';
 import { serviceData } from '../Data/servicedata';
-import Brittany from '../assets/brittany.jpeg';
-import Grapvine from '../assets/grapevine.jpeg';
+import Ambassador from '../assets/brittany.jpeg';
+import S1 from '../assets/Milan.jpeg';
+import S2 from '../assets/Kemia.jpeg';
 
 
 function Community() {
@@ -182,17 +183,17 @@ function Community() {
 
                         {/* Scholarship Winners Section */}
                         <div className="mb-24">
-                            <h2 className="text-4xl font-serif font-bold text-center my-16 text-gray-900">Scholarship Winners</h2>
+                            <h2 className="text-4xl font-serif font-bold text-center my-16 text-gray-900">Recognizing Leaders & Scholarship Recipients</h2>
                             <p className="text-xl text-gray-600 text-center mb-12 max-w-4xl mx-auto leading-relaxed font-light">
                                 Celebrating the achievements of outstanding students who embody our values of purposeful living and community leadership.
                             </p>
                             
-                            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 mb-16 ">
-                                <div className="glass-effect rounded-3xl overflow-hidden elegant-shadow hover-lift elegant-transition h-fit">
+                            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16 ">
+                                <div className="glass-effect rounded-0 overflow-hidden elegant-shadow hover-lift elegant-transition h-fit">
                                     <div className="aspect-w-4 aspect-h-3">
                                         <img 
-                                            src={Brittany}
-                                            alt="Marcus Thompson, 2024 Leadership Excellence Scholarship winner"
+                                            src={Ambassador}
+                                            alt="Brittany Leigh, PWP Ambassador"
                                             className="w-full h-64 object-cover object-center"
                                             onerror="this.src=''; this.alt='Image failed to load'; this.style.display='none';"
                                         />
@@ -205,19 +206,19 @@ function Community() {
                                         <p className="my-4 text-gray-600 leading-relaxed font-light">
                                             Brittany is a driven and creative 17-year-old with a strong passion for beauty, fashion and entrepreneurship. Since 2020, she has been exercising her skill to create hair and nail designs, known for her unique concepts and artistic flair. Brittany enjoys creating standout looks and bringing original ideas to life. 
                                         </p>
-                                        <p className="my-4 text-gray-600 leading-relaxed font-light">
+                                        {/* <p className="my-4 text-gray-600 leading-relaxed font-light">
                                             In addition to her creative talents, she is well-rounded and active having played varsity flag football with the I9 Texans senior girls, earned a yellow belt in kickboxing and gained valuable experience through her love for babysitting. 
                                         </p>
                                         <p className="my-4 text-gray-600 leading-relaxed font-light">
-                                            Her future goals include attending an HBCU to study Business and Entrepreneurship, with plans to later pursue a career in real estate. With a strong work ethic, creative vision and leadership mindset, she is preparing to build a bright and impactful future.                                         </p>
+                                            Her future goals include attending an HBCU to study Business and Entrepreneurship, with plans to later pursue a career in real estate. With a strong work ethic, creative vision and leadership mindset, she is preparing to build a bright and impactful future.                                         </p> */}
                                     </div>
                                 </div>
 
-                                <div className="glass-effect rounded-3xl overflow-hidden elegant-shadow hover-lift elegant-transition h-fit">
+                                <div className="glass-effect rounded-0 overflow-hidden elegant-shadow hover-lift elegant-transition h-fit">
                                     <div className="aspect-w-4 aspect-h-3">
                                         <img 
-                                            src={Grapvine}
-                                            alt="Sofia Rodriguez, 2024 Academic Achievement Scholarship winner"
+                                            src={S1}
+                                            alt="Milan Page, Scholarship Recipient"
                                             className="w-full h-64 object-cover object-top"
                                             onerror="this.src=''; this.alt='Image failed to load'; this.style.display='none';"
                                         />
@@ -232,7 +233,25 @@ function Community() {
                                         </p>
                                     </div>
                                 </div>
-
+                                <div className="glass-effect rounded-0 overflow-hidden elegant-shadow hover-lift elegant-transition h-fit">
+                                    <div className="aspect-w-4 aspect-h-3">
+                                        <img 
+                                            src={S2}
+                                            alt="Kemia Bridgewater, Scholarship Recipient"
+                                            className="w-full h-64 object-cover object-center brightness-125"
+                                            onerror="this.src=''; this.alt='Image failed to load'; this.style.display='none';"
+                                        />
+                                    </div>
+                                    <div className="p-8">
+                                        <h3 className="text-2xl font-serif font-bold text-gray-900 mb-3">Kemia Bridgewater, Scholarship Recipient</h3>
+                                        {/* <div className="bg-custom-olive/20 text-custom-olive px-3 py-1 rounded-full text-sm font-semibold mb-4 inline-block">
+                                            2024 Academic Achievement Award
+                                        </div> */}
+                                        <p className="text-gray-600 leading-relaxed font-light">
+                                            Kemia Bridgewater is an inspiring entrepreneur, Founder/CEO, and First Generation Gem who exemplifies determination and vision. As one of our student entrepreneurs and mentees in the entrepreneurial component of PWP, Kemia has demonstrated exceptional leadership and creativity in building her business from the ground up.
+                                        </p>
+                                    </div>
+                                </div>
 
 
                             </div>
@@ -251,156 +270,137 @@ function Community() {
                         </div>
 
 
-            {/* Community Gallery Section */}
-            <div className="mt-24">
-                <h2 className="text-4xl font-serif font-bold text-center mb-16 text-gray-900">Our Community in Action</h2>
-                <p className="text-xl text-gray-600 text-center mb-12 max-w-4xl mx-auto leading-relaxed font-light">
-                    See the positive impact we're making together through workshops, support groups, and community events that strengthen families.
-                </p>
-                
-                {/* Mosaic Gallery Layout */}
-                <div className="columns-1 md:columns-2 lg:columns-3 xl:columns-4 gap-6 space-y-6">
-                    {galleryImages.map((image, index) => {
-                        // Define different heights for mosaic effect
-                        const heights = ['h-64', 'h-80', 'h-72', 'h-96', 'h-60', 'h-88', 'h-76', 'h-84'];
-                        const randomHeight = heights[index % heights.length];
-                        
-                        return (
-                            <div 
-                                key={index} 
-                                className="break-inside-avoid mb-6 glass-effect rounded-2xl overflow-hidden elegant-shadow hover-lift elegant-transition cursor-pointer" 
-                                onClick={() => openLightbox(index)}
-                            >
-                                <div className="relative group">
-                                    <img 
-                                        src={image.src}
-                                        alt={image.alt}
-                                        className={`w-full ${randomHeight} object-cover transition-transform duration-300 group-hover:scale-105`}
-                                        onerror="this.src=''; this.alt='Image failed to load'; this.style.display='none';"
-                                    />
-                                    <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-all duration-300 flex items-center justify-center">
-                                        <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                                            <div className="w-16 h-16 mx-auto bg-white/95 rounded-full flex items-center justify-center backdrop-blur-sm">
-                                                <svg className="w-8 h-8 text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7" />
-                                                </svg>
+                        {/* Community Gallery Section */}
+                        <div className="mb-24">
+                            <h2 className="text-4xl font-serif font-bold text-center mb-16 text-gray-900">Our Community in Action</h2>
+                            <p className="text-xl text-gray-600 text-center mb-12 max-w-4xl mx-auto leading-relaxed font-light">
+                                See the positive impact we're making together through workshops, support groups, and community events that strengthen families.
+                            </p>
+                            
+                            {/* Mosaic Gallery Layout */}
+                            <div className="columns-1 md:columns-2 lg:columns-3 xl:columns-4 gap-6 space-y-6">
+                                {galleryImages.map((image, index) => {
+                                    // Define different heights for mosaic effect
+                                    const heights = ['h-64', 'h-80', 'h-72', 'h-96', 'h-60', 'h-88', 'h-76', 'h-84'];
+                                    const randomHeight = heights[index % heights.length];
+                                    
+                                    return (
+                                        <div 
+                                            key={index} 
+                                            className="break-inside-avoid mb-6 glass-effect rounded-0 overflow-hidden elegant-shadow hover-lift elegant-transition cursor-pointer" 
+                                            onClick={() => openLightbox(index)}
+                                        >
+                                            <div className="relative group">
+                                                <img 
+                                                    src={image.src}
+                                                    alt={image.alt}
+                                                    className={`w-full ${randomHeight} object-cover transition-transform duration-300 group-hover:scale-105`}
+                                                    onerror="this.src=''; this.alt='Image failed to load'; this.style.display='none';"
+                                                />
+                                                {/* <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-all duration-300 flex items-center justify-center">
+                                                    <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                                        <div className="w-16 h-16 bg-white/95 rounded-full flex items-center justify-center backdrop-blur-sm">
+                                                            <svg className="w-8 h-8 text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7" />
+                                                            </svg>
+                                                        </div>
+                                                    </div>
+                                                </div> */}
+                                            </div>
+                                            
+                                            {/* Always visible title and description */}
+                                            <div className="p-4">
+                                                <h3 className="text-lg font-serif font-bold text-gray-900 mb-1">{image.title}</h3>
+                                                <p className="text-gray-600 font-light text-sm">{image.description}</p>
                                             </div>
                                         </div>
-                                    </div>
-                                    
-                                    {/* Overlay with title and description */}
-                                    <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent p-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                                        <h3 className="text-lg font-serif font-bold text-white mb-1">{image.title}</h3>
-                                        <p className="text-gray-200 font-light text-sm">{image.description}</p>
+                                    );
+                                })}
+                            </div>
+
+                            {/* Lightbox Modal */}
+                            {lightboxOpen && (
+                                <div className="fixed inset-0 bg-black/90 flex items-center justify-center z-50 p-4" onClick={closeLightbox}>
+                                    <div className="relative max-w-6xl max-h-full w-full h-full flex items-center justify-center" onClick={(e) => e.stopPropagation()}>
+                                        {/* Close Button */}
+                                        <button
+                                            onClick={closeLightbox}
+                                            className="absolute top-4 right-4 z-10 w-12 h-12 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center text-white elegant-transition"
+                                        >
+                                            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                                            </svg>
+                                        </button>
+
+                                        {/* Previous Button */}
+                                        <button
+                                            onClick={prevImage}
+                                            className="absolute left-4 top-1/2 transform -translate-y-1/2 z-10 w-12 h-12 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center text-white elegant-transition"
+                                        >
+                                            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+                                            </svg>
+                                        </button>
+
+                                        {/* Next Button */}
+                                        <button
+                                            onClick={nextImage}
+                                            className="absolute right-4 top-1/2 transform -translate-y-1/2 z-10 w-12 h-12 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center text-white elegant-transition"
+                                        >
+                                            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                                            </svg>
+                                        </button>
+
+                                        {/* Main Image */}
+                                        <div className="flex flex-col items-center justify-center max-w-full max-h-full">
+                                            <img
+                                                src={galleryImages[currentImageIndex].src}
+                                                alt={galleryImages[currentImageIndex].alt}
+                                                className="max-w-full max-h-[80vh] object-contain rounded-lg elegant-shadow"
+                                                onerror="this.src=''; this.alt='Image failed to load'; this.style.display='none';"
+                                            />
+                                            
+                                            {/* Image Info */}
+                                            <div className="mt-6 text-center max-w-2xl">
+                                                <h3 className="text-2xl font-serif font-bold text-white mb-2">
+                                                    {galleryImages[currentImageIndex].title}
+                                                </h3>
+                                                <p className="text-gray-300 font-light">
+                                                    {galleryImages[currentImageIndex].description}
+                                                </p>
+                                                <div className="mt-4 text-gray-400 text-sm">
+                                                    {currentImageIndex + 1} of {galleryImages.length}
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        {/* Thumbnail Navigation */}
+                                        <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2 max-w-full overflow-x-auto px-4">
+                                            {galleryImages.map((image, index) => (
+                                                <button
+                                                    key={index}
+                                                    onClick={() => setCurrentImageIndex(index)}
+                                                    className={`flex-shrink-0 w-16 h-16 rounded-lg overflow-hidden border-2 elegant-transition ${
+                                                        index === currentImageIndex 
+                                                            ? 'border-white' 
+                                                            : 'border-transparent hover:border-white/50'
+                                                    }`}
+                                                >
+                                                    <img
+                                                        src={image.src}
+                                                        alt={image.alt}
+                                                        className="w-full h-full object-cover"
+                                                        onerror="this.src=''; this.alt='Image failed to load'; this.style.display='none';"
+                                                    />
+                                                </button>
+                                            ))}
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        );
-                    })}
-                </div>
-
-                {/* Lightbox Modal */}
-                {lightboxOpen && (
-                    <div className="fixed inset-0 bg-black/90 flex items-center justify-center z-50 p-4" onClick={closeLightbox}>
-                        <div className="relative max-w-6xl max-h-full w-full h-full flex items-center justify-center" onClick={(e) => e.stopPropagation()}>
-                            {/* Close Button */}
-                            <button
-                                onClick={closeLightbox}
-                                className="absolute top-4 right-4 z-10 w-12 h-12 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center text-white elegant-transition"
-                            >
-                                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                                </svg>
-                            </button>
-
-                            {/* Previous Button */}
-                            <button
-                                onClick={prevImage}
-                                className="absolute left-4 top-1/2 transform -translate-y-1/2 z-10 w-12 h-12 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center text-white elegant-transition"
-                            >
-                                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-                                </svg>
-                            </button>
-
-                            {/* Next Button */}
-                            <button
-                                onClick={nextImage}
-                                className="absolute right-4 top-1/2 transform -translate-y-1/2 z-10 w-12 h-12 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center text-white elegant-transition"
-                            >
-                                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                                </svg>
-                            </button>
-
-                            {/* Main Image */}
-                            <div className="flex flex-col items-center justify-center max-w-full max-h-full">
-                                <img
-                                    src={galleryImages[currentImageIndex].src}
-                                    alt={galleryImages[currentImageIndex].alt}
-                                    className="max-w-full max-h-[80vh] object-contain rounded-lg elegant-shadow"
-                                    onerror="this.src=''; this.alt='Image failed to load'; this.style.display='none';"
-                                />
-                                
-                                {/* Image Info */}
-                                <div className="mt-6 text-center max-w-2xl">
-                                    <h3 className="text-2xl font-serif font-bold text-white mb-2">
-                                        {galleryImages[currentImageIndex].title}
-                                    </h3>
-                                    <p className="text-gray-300 font-light">
-                                        {galleryImages[currentImageIndex].description}
-                                    </p>
-                                    <div className="mt-4 text-gray-400 text-sm">
-                                        {currentImageIndex + 1} of {galleryImages.length}
-                                    </div>
-                                </div>
-                            </div>
-
-                            {/* Thumbnail Navigation */}
-                            <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2 max-w-full overflow-x-auto px-4">
-                                {galleryImages.map((image, index) => (
-                                    <button
-                                        key={index}
-                                        onClick={() => setCurrentImageIndex(index)}
-                                        className={`flex-shrink-0 w-16 h-16 rounded-lg overflow-hidden border-2 elegant-transition ${
-                                            index === currentImageIndex 
-                                                ? 'border-white' 
-                                                : 'border-transparent hover:border-white/50'
-                                        }`}
-                                    >
-                                        <img
-                                            src={image.src}
-                                            alt={image.alt}
-                                            className="w-full h-full object-cover"
-                                            onerror="this.src=''; this.alt='Image failed to load'; this.style.display='none';"
-                                        />
-                                    </button>
-                                ))}
-                            </div>
+                            )}
                         </div>
-                    </div>
-                )}
-            </div>
 
-                {/* Donation and Contact Founder Section */}
-                <div className="grid grid-cols-1 lg:grid-cols-1 gap-8 my-20">
-                    {/* Support Our Mission */}
-                    <div className="glass-effect3 p-12 rounded-3xl elegant-shadow">
-                        <h2 className="text-3xl font-serif font-bold text-center mb-6 text-white">Support Our Mission</h2>
-                        <p className="text-lg text-white text-center mb-8 leading-relaxed font-light">
-                            Your generous donations directly impact families in our community. Every contribution helps us expand our reach and deepen our impact.
-                        </p>
-
-                        <div className="text-center">
-                            <button 
-                                onClick={handleDonateClick}
-                                className="w-fit elegant-button text-white px-10 py-4 rounded-xl text-lg font-semibold elegant-transition hover-lift elegant-shadow"
-                            >
-                                Make a Donation
-                            </button>
-                        </div>
-                    </div>
-                </div>
 
 
                 {/* Services & Pricing Section */}

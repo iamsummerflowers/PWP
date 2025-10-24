@@ -17,67 +17,67 @@ export const galleryImages = [
         {
             src: image4,
             alt: "Young woman speaking on a podium",
-            title: "What Is This Picture",
+            title: "Flag Raising 2025",
             // description: "Brittany is a driven and creative 17-year-old with a strong passion for beauty, fashion and entrepreneurship. Since 2020, she has been exercising her skill to create hair and nail designs, known for her unique concepts and artistic flair. Brittany enjoys creating standout looks and bringing original ideas to life. "
         },
         {
             src: image2,
             alt: "Grapevine Award",
-            title: "What this picture is about",
-            description: "Another short text blurb with additional information"
+            title: "Flag Raising 2025t",
+            // description: "Another short text blurb with additional information"
         },
         {
             src: image3,
             alt: "Junteenth flyer for 2024",
-            // title: "3",
+            title: "Flag Raising 2025",
             // description: "Teens developing leadership skills"
         },
-        {
-            src: image1,
-            alt: "Community members taking pictures for the Assembly Award",
-            // title: "4",
-            // description: "Volunteers helping families in need"
-        },
+        // {
+        //     src: image1,
+        //     alt: "Community members taking pictures for the Assembly Award",
+        //     // title: "4",
+        //     // description: "Volunteers helping families in need"
+        // },
         {
             src: image5,
             alt: "Booth owner of Rose Mary's Gourmet Pies working at a tent",
-            // title: "5",
+            title: "Flag Raising 2025",
             // description: "Building stronger family bonds"
         },
         {
             src: image6,
             alt: "Community members taking a picture for an award",
-            // title: "6",
+            title: "Flag Raising 2025",
             // description: "Interactive parenting education session"
         },
         {
             src: image7,
             alt: "Commnity member speaking on a stage at a neighbor hood event",
-            // title: "7",
+            title: "Flag Raising 2025",
             // description: "Annual family celebration gathering"
         },
         {
             src: image8,
             alt: "Young woman speaking on a podium",
-            // title: "8",
+            title: "Flag Raising 2025",
             // description: "Experienced parent mentoring newcomer"
         },
         {
             src: image9,
             alt: "Flyer with speakers showcased",
-            // title: "9",
+            title: "Flag Raising 2025",
             // description: "Experienced parent mentoring newcomer"
         },
             {
             src: image10,
             alt: "Woman at a booth",
-            // title: "10",
+            title: "Flag Raising 2025",
             // description: "Experienced parent mentoring newcomer"
         },
                 {
             src: image11,
             alt: "Flyer showcasing a community event",
-            // title: "11",
+            title: "Flag Raising 2025",
             // description: "Experienced parent mentoring newcomer"
         }
     ];
