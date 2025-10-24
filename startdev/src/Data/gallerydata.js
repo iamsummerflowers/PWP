@@ -17,14 +17,14 @@ export const galleryImages = [
         {
             src: image4,
             alt: "Young woman speaking on a podium",
-            // title: "Brittany Leigh, PWP Ambassador",
+            title: "What Is This Picture",
             // description: "Brittany is a driven and creative 17-year-old with a strong passion for beauty, fashion and entrepreneurship. Since 2020, she has been exercising her skill to create hair and nail designs, known for her unique concepts and artistic flair. Brittany enjoys creating standout looks and bringing original ideas to life. "
         },
         {
             src: image2,
             alt: "Grapevine Award",
-            // title: "2",
-            // description: "Weekly parent support group meeting"
+            title: "What this picture is about",
+            description: "Another short text blurb with additional information"
         },
         {
             src: image3,
