@@ -9,6 +9,7 @@ import image8 from "../assets/podium.png";
 import image9 from "../assets/circles.jpeg";
 import image10 from "../assets/booth.jpeg";
 import image11 from "../assets/communitynight.jpeg";
+import image12 from "../assets/Recognition.jpeg";
 
 
 
@@ -79,5 +80,11 @@ export const galleryImages = [
             alt: "Community Night wit MUSD",
             title: "Community Night wit MUSD",
             // description: "Experienced parent mentoring newcomer"
+        },
+        {
+            src: image12,
+            alt: "Recognition by Assembly of California",
+            title: "Recognition by Assembly of California",
+            description: "2024"
         }
     ];
