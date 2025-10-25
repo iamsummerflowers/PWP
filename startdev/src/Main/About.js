@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css';
-import colette from '../assets/founder2.png';
+import colette from '../assets/FounderRep.png';
 import pwp from '../assets/PWP.jpg';
 
 
