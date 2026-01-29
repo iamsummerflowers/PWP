@@ -5,6 +5,8 @@ import { serviceData } from '../Data/servicedata';
 import Ambassador from '../assets/brittany.jpeg';
 import S1 from '../assets/Milan.jpeg';
 import S2 from '../assets/Kemia.jpeg';
+import S3 from '../assets/Flyer.png';
+
 
 
 function Community() {
@@ -268,6 +270,45 @@ function Community() {
                                 </div>
                             </div> */}
                         </div>
+
+                        {/* Popcorn Fundraiser Section */}
+                                <div className="glass-effect p-8 rounded-3xl elegant-shadow max-w-2xl mx-auto">
+                                    <h3 className="text-3xl font-serif font-bold text-gray-900 mb-8 text-center">Popcorn Fundraiser</h3>
+                                    
+                                    {/* Flyer */}
+                                    <div className="px-8 ">
+                                        <img 
+                                            src={S3}
+                                            alt="Fundraiser Flyer"
+                                            className="w-full object-cover object-center brightness-125"
+                                            onerror="this.src=''; this.alt='Image failed to load'; this.style.display='none';"
+                                        />
+                                    </div>
+
+                                    {/* Buy Now Button */}
+                                    <a 
+                                        href="https://cash.app/$ColetteChoates"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="flex justify-center w-fit mx-auto glass-effect3 text-white px-8 py-3 my-3 rounded-xl font-semibold elegant-transition hover-lift"
+                                    >
+                                        Buy Now
+                                    </a>
+
+                                    {/* Order Information */}
+                                    <div className="text-left bg-gray-50 p-6 rounded-2xl">
+                                        <ul className="space-y-4 text-gray-700 font-light">
+                                            <li className="flex items-start">
+                                                <p>Please include your order quantity in the CashApp or Zelle notes (specify how many bags of popcorn you'd like to purchase)</p>
+                                            </li>
+                                            <li className="flex items-start space-x-3">
+                                                <p>A $5 shipping and handling fee applies to all orders</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+
 
 
                         {/* Community Gallery Section */}
