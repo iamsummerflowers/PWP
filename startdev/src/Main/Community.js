@@ -299,7 +299,7 @@ function Community() {
                                     <div className="text-left bg-gray-50 p-6 rounded-2xl">
                                         <ul className="space-y-4 text-gray-700 font-light">
                                             <li className="flex items-start">
-                                                <p>Please include your order quantity in the CashApp or Zelle notes (specify how many bags of popcorn you'd like to purchase)</p>
+                                                <p>Please include your order quantity in the CashApp notes (specify how many bags of popcorn you'd like to purchase)</p>
                                             </li>
                                             <li className="flex items-start space-x-3">
                                                 <p>A $5 shipping and handling fee applies to all orders</p>
