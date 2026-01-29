@@ -272,7 +272,7 @@ function Community() {
                         </div>
 
                         {/* Popcorn Fundraiser Section */}
-                                <div className="glass-effect p-8 rounded-3xl elegant-shadow max-w-2xl mx-auto">
+                                <div className="glass-effect p-8 rounded-3xl elegant-shadow max-w-2xl mx-auto mb-24">
                                     <h3 className="text-3xl font-serif font-bold text-gray-900 mb-8 text-center">Popcorn Fundraiser</h3>
                                     
                                     {/* Flyer */}
