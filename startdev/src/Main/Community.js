@@ -294,14 +294,27 @@ function Community() {
                                     >
                                         Buy Now
                                     </a>
-
+                                    <div className="text-left bg-gray-50 p-6 mb-6 rounded-2xl">
+                                        <p className="space-y-4 text-gray-700 mb-2 font-light">
+                                            Every bag of popcorn I’m selling carries a little more than a tasty snack — it carries a story and my village’s story.
+                                        </p>
+                                        <p className="space-y-4 text-gray-700 mb-2 font-light">
+                                            I am working toward my Too and Through Scholarship, a goal that represents perseverance, education, and the belief that anyone can go to college and throughit with faith, support, and determination. This scholarship helps open doors that once felt far away, and each popcorn purchase brings the student one step closer to that dream.
+                                        </p>
+                                        <p className="space-y-4 text-gray-700 mb-2 font-light">
+                                            At the same time, this fundraiser supports Village Sunday, a day that reminds us we don’t walk this journey alone. Village Sunday is about community — people coming together to uplift, encourage, and invest in one another. It’s a reminder that when one person grows, the whole village grows too.
+                                        </p>
+                                        <p className="space-y-4 text-gray-700 mb-2 font-light">
+                                            So when you buy popcorn, you’re doing more than enjoying a treat. You’re investing in education, faith, and community. You’re becoming part of my village — and for that, I am truly grateful.
+                                        </p>
+                                    </div>
                                     {/* Order Information */}
                                     <div className="text-left bg-gray-50 p-6 rounded-2xl">
                                         <ul className="space-y-4 text-gray-700 font-light">
-                                            <li className="flex items-start">
+                                            <li className="flex items-start font-bold">
                                                 <p>Please include your order quantity in the CashApp notes (specify how many bags of popcorn you'd like to purchase)</p>
                                             </li>
-                                            <li className="flex items-start space-x-3">
+                                            <li className="flex items-start space-x-3 font-bold">
                                                 <p>A $5 shipping and handling fee applies to all orders</p>
                                             </li>
                                         </ul>
